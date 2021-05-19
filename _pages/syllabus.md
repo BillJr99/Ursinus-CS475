@@ -195,7 +195,8 @@ schedule:
   deliverables:  
   - dtitle: "Programming Assignment: Warmup Handed Out"
     dlink: "./Assignments/Warmup"
-    points: 10   
+    points: 10 
+    submission_types: "noupload"    
 - week: "0"
   date: "2"
   title: "Sending Packets"  
@@ -203,6 +204,7 @@ schedule:
   - dtitle: "Participation: Pre-Assessment Handed Out"
     dlink: "./Assignments/Participation/PreAssessment"
     points: 10   
+    submission_types: "written"        
   readings:
   - rtitle: "Dordal Ch. 1"
     rlink: false
@@ -221,7 +223,8 @@ schedule:
   deliverables:
   - dtitle: "Lab: Wireshark Overview Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Intro_v8.0.pdf"
-    points: 10    
+    points: 10   
+    submission_types: "written"        
   readings:
   - rtitle: "Jim Kurose: Wireshark Demo"
     rlink: "https://www.youtube.com/watch?v=PYoXowOCppc"
@@ -236,7 +239,8 @@ schedule:
   deliverables:
   - dtitle: "Programming Assignment: Warmup Due"
     dlink: "./Assignments/Warmup"
-    points: 10    
+    points: 10  
+    submission_types: "noupload"    
   readings:
   - rtitle: "Kurose and Ross: Protocol Layers"
     rlink: "https://youtu.be/IZ_PnVXtMeY"  
@@ -251,7 +255,8 @@ schedule:
   deliverables:
   - dtitle: "Participation: Pre-Assessment Due"
     dlink: "./Assignments/Participation/PreAssessment"
-    points: 10   
+    points: 10 
+    submission_types: "written"            
   readings:
   - rtitle: "Dordal Ch. 2"
     rlink: false  
@@ -262,6 +267,7 @@ schedule:
   - dtitle: "Lab: HTTP with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_HTTP_v8.0.pdf"     
     points: 10 
+    submission_types: "written"        
   readings:
   - rtitle: "Transoceanic Cable Video"
     rlink: "https://www.youtube.com/watch?v=T96P2d2UVsQ"  
@@ -272,6 +278,7 @@ schedule:
   - dtitle: "Lab: Wireshark Overview Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Intro_v8.0.pdf"  
     points: 10    
+    submission_types: "written"        
 - week: "2"
   date: "2"
   title: "Ethernet"  
@@ -282,6 +289,7 @@ schedule:
   - dtitle: "Programming Assignment: Introduction to the RFC Handed Out"  
     dlink: "Assignments/RFC"
     points: 100 
+    submission_types: "written"        
 - week: "3"
   date: "0"
   title: "Wi-Fi with FDMA and CDMA Wireless Protocols"
@@ -324,9 +332,11 @@ schedule:
   - dtitle: "Lab: Ethernet with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Ethernet_ARP_v8.0.pdf"   
     points: 10
+    submission_types: "written"        
   - dtitle: "Lab: Wi-Fi with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_802.11_v8.0.pdf"   
     points: 10    
+    submission_types: "written"        
 - week: "4"
   date: "1"
   title: "The Network Layer and IPv4"  
@@ -351,7 +361,8 @@ schedule:
   deliverables:
   - dtitle: "Programming Assignment: Introduction to the RFC Due"  
     dlink: "Assignments/RFC"
-    points: 100     
+    points: 100   
+    submission_types: "written"            
 - week: "5"
   date: "0"
   title: "IPv4 Addressing and Subnets" 
@@ -359,16 +370,19 @@ schedule:
   - dtitle: "Lab: Wi-Fi with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_802.11_v8.0.pdf"  
     points: 10
+    submission_types: "written"        
   - dtitle: "Lab: IP with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_IP_v8.0.pdf"      
     points: 10
+    submission_types: "written"        
 - week: "5"
   date: "1"
   title: "IP Multiplexing with NAT"  
   deliverables:
   - dtitle: "Midterm Exam: Midterm Handed Out"
     dlink: false
-    points: 100     
+    points: 100  
+    submission_types: "written"            
 - week: "5"
   date: "2"
   title: "Outside Address Lookups with DNS" 
@@ -376,9 +390,11 @@ schedule:
   - dtitle: "Lab: IP with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_IP_v8.0.pdf"     
     points: 10
+    submission_types: "written"        
   - dtitle: "Lab: NAT with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_NAT_v8.0.pdf"      
     points: 10
+    submission_types: "written"        
   readings:
   - rtitle: "Dordal Ch. 10"
     rlink: false   
@@ -393,9 +409,11 @@ schedule:
   - dtitle: "Participation: First Self-Assessment Handed Out"
     dlink: "./Assignments/Participation/SelfAssessment"
     points: 10 
+    submission_types: "written"        
   - dtitle: "Midterm Exam: Midterm Due"
     dlink: false
     points: 100    
+    submission_types: "written"        
 - week: "6"
   date: "2"
   title: "Dynamic Configuration with DHCP"
@@ -403,9 +421,11 @@ schedule:
   - dtitle: "Lab: NAT with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_NAT_v8.0.pdf"  
     points: 10    
+    submission_types: "written"        
   - dtitle: "Lab: DHCP with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DHCP_v8.0.pdf"    
     points: 10
+    submission_types: "written"        
 - week: "7"
   date: "0"
   title: "ICMP and Ping" 
@@ -422,6 +442,7 @@ schedule:
     - dtitle: "Participation: First Self-Assessment Due"
       dlink: "./Assignments/Participation/SelfAssessment"
       points: 10   
+      submission_types: "written"        
   readings:
   - rtitle: "Dordal Ch. 11"
     rlink: false   
@@ -432,9 +453,11 @@ schedule:
   - dtitle: "Lab: DHCP with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DHCP_v8.0.pdf" 
     points: 10
+    submission_types: "written"        
   - dtitle: "Lab: ICMP with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_ICMP_v8.0.pdf"     
     points: 10
+    submission_types: "written"        
 - week: "8"
   date: "0"
   title: "Routing" 
@@ -462,7 +485,8 @@ schedule:
   deliverables:
   - dtitle: "Lab: ICMP with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_ICMP_v8.0.pdf" 
-    points: 10    
+    points: 10
+    submission_types: "written"            
   readings:
   - rtitle: "Dordal Ch. 14"
     rlink: false   
@@ -476,7 +500,7 @@ schedule:
     rlink: "https://youtu.be/2rV4tJkP-CQ"   
   deliverables:
   - dtitle: "Programming Assignment: Traceroute Due"
-    dlink: "./Assignments/Traceroute"      
+    dlink: "./Assignments/Traceroute"   
 - week: "9"
   date: "1"
   title: "The Transport Layer: Considerations"
@@ -507,7 +531,8 @@ schedule:
   deliverables:
   - dtitle: "Lab: UDP with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_UDP_v8.0.pdf" 
-    points: 10    
+    points: 10  
+    submission_types: "written"            
   readings:
   - rtitle: "Dordal Ch. 17"
     rlink: false  
@@ -555,9 +580,11 @@ schedule:
   - dtitle: "Lab: UDP with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_UDP_v8.0.pdf" 
     points: 10
+    submission_types: "written"        
   - dtitle: "Lab: TCP with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_TCP_v8.0.pdf"     
     points: 10
+    submission_types: "written"        
   readings:
   - rtitle: "Redbook Ch. 16"
     rlink: false
@@ -595,7 +622,8 @@ schedule:
   deliverables:
   - dtitle: "Programming Assignment: TFTP Handed Out"  
     dlink: "Assignments/TFTP"
-    points: 100    
+    points: 100  
+    submission_types: "written"        
 - week: "13"
   date: "0"
   title: "Socket Programming"  
@@ -603,16 +631,19 @@ schedule:
   - dtitle: "Lab: TCP with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_TCP_v8.0.pdf"
     points: 10
+    submission_types: "written"        
   - dtitle: "Lab: DNS with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DNS_v8.0.pdf"     
     points: 10      
+    submission_types: "written"        
 - week: "13"
   date: "1"
   title: "Multithreaded Socket Programming"    
   deliverables:
     - dtitle: "Participation: Second Self-Assessment Handed Out"
       dlink: "./Assignments/Participation/SelfAssessment"
-      points: 10          
+      points: 10 
+      submission_types: "written"        
 - week: "13"
   date: "2"
   title: "Security and Privacy"
@@ -627,16 +658,19 @@ schedule:
   - dtitle: "Lab: DNS with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DNS_v8.0.pdf"  
     points: 10    
+    submission_types: "written"            
   - dtitle: "Lab: SSL with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_SSL_v8.0.pdf"     
     points: 10
+    submission_types: "written"        
 - week: "14"
   date: "1"
   title: "Security and Privacy with Public Key Cryptosystems"
   deliverables:   
     - dtitle: "Participation: Second Self-Assessment Due"
       dlink: "./Assignments/Participation/SelfAssessment"
-      points: 10    
+      points: 10   
+      submission_types: "written"        
     - dtitle: "Programming Assignment: TFTP Due"  
       dlink: "Assignments/TFTP"
       points: 100              
@@ -649,7 +683,8 @@ schedule:
     points: 100
   - dtitle: "Lab: SSL with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_SSL_v8.0.pdf" 
-    points: 10    
+    points: 10   
+    submission_types: "written"            
 university:
   semester: "Spring"
   academicyear: "2020-21"
