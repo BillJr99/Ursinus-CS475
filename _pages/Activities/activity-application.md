@@ -7,7 +7,6 @@ excerpt: "CS475: Computer Networks - The Application Layer"
 info:
   goals: 
     - To describe the functionality of application layer protocols including HTTP and SMTP
-    - To implement a multithreaded, multiplexed socket I/O application that implements an application layer protocol
         
   additional_reading:
     - link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_2_v8.1.pptx"
@@ -61,20 +60,7 @@ info:
         - "How might a sender authenticate against the server?"
         - "Where does the sender indicate their email address?  What unfortunate consequence could result from this?"
         - "How might a sender attach a file?"
-        - "What might you do if you were sending non-text, like an MP3 file, over a text-based protocol like this one?"
-    - model: |
-        <a href="https://www.baeldung.com/a-guide-to-java-sockets">Socket Programming Tutorial</a>
-        <br>
-        <a href="https://www.infoworld.com/article/2853780/socket-programming-for-scalable-systems.html">Threaded Socket Programming Example</a>
-      title: "Socket Programming"
-      questions: 
-        - "Create a socket to connect to your favorite web server and make an HTTP request, printing its response to the screen." 
-        - "What port number does your server socket use, and what port should your client use to connect?"
-        - "How do we free up the primary server socket port for subsequent connections, so that they can be handled simultaneously?"
-      embed: |
-        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/ThreadedSocketClientExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
-        <br>
-        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/ThreadedSocketServerExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>          
+        - "What might you do if you were sending non-text, like an MP3 file, over a text-based protocol like this one?"  
     - model: |
         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/TJiW31F5xrE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       title: "End-to-End Review"

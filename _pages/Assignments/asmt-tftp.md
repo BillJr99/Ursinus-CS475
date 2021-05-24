@@ -45,6 +45,45 @@ You could test your server with the tftp client available under most Unix (and U
 
 Your server should handle multiple clients at the same time.  You can accomplish this by putting your server code into a threaded routine, and starting the thread with the connection socket as soon as a connection is made by the primary server socket in `main()`.  
 
+### The Protocol State Machine
+
+Before you begin writing code, read the TFTP protocol RFC and sketch a state machine that indicates:
+
+1. What action should be taken when each message is received
+2. What response should be sent when each message is received
+3. What message should be expected next
+
+For example, upon receiving an `RRQ`, you should read the filename from the message and, if it exists, respond with a `DATA` packet containing the first 512 bytes of the file.  If the file does not exist (or you can't read it), you should respond with an `ERROR` packet and quit.
+
+### Implementing the State Machine
+
+This state machine can be implemented using a `do` loop and an `if` statement that checks the opcode of each message.  Depending on the opcode received, you'll know how to read the rest of the message, what to do, how to respond, and what to expect next.  Initially, you should expect to receive an `RRQ` or a `WRQ` message to kick things off - similarly, this is what you would send first (and you'll know what to expect in reply right away thanks to the state machine you've just made!).  
+
+### Bit Packing with Java
+
+You can use the [`DataInputStream`](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/DataInputStream.html) and [`DataOutputStream'](https://docs.oracle.com/javase/7/docs/api/java/io/DataOutputStream.html) to send individual bytes, `short` integers, integers, etc., as part of your message format.  For example, to read a `String`, you can call `readChar()` in a loop until the character returned is equal to the null terminator `\0`.  You can append each character to a [`StringBuilder`](https://docs.oracle.com/javase/7/docs/api/java/lang/StringBuilder.html), and call its `toString()` method to obtain the resulting `String`.
+
+#### Network (Big-Endian) Byte Order
+
+When you write a `byte[]` array, you will want to be careful to put the array into network order before sending it with the `DataOutputStream.write(byte[], 0, n)` method.  Similarly, you'll want to re-order the bytes when you receive them from network byte order into your local computer architecture byte ordering.  Java facilitates this byte swapping with the [`java.nio.ByteBuffer`](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/nio/ByteBuffer.html) library, which you can use for this purpose.  For example:
+
+```java
+import java.nio.ByteBuffer;
+
+// this operation is known as ntohl in C
+int networkOrderToInt(byte[] data) {
+    ByteBuffer buf = ByteBuffer.wrap(data);
+    return buf.getInt(); // can be getShort, getLong, ...
+}
+
+// this operation is known as htonl in C
+byte[] intToNetworkOrder(int data) {
+    ByteBufer buf = ByteBuffer.allocate(4); // sizeof(int) is 4
+    buf.putInt(data);
+    return buf.array();
+}
+```
+
 ### Notes
 The tftp service is using port 69 which requires superuser (administrator) access rights. Since you want to be able to run your server on machines where you may not have superuser privileges, you should include the option to run the server from another (non-privileged) port.
 

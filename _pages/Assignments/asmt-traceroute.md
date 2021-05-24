@@ -72,6 +72,33 @@ except socket.timeout:
 
 You can catch an exception if the socket times out on receive, so that you don't end up stuck in an infinite loop.  You can modify your `while` loop so that you also quit the loop if the `ttl` reaches a certain value, like `16`, indicating that you are in such an infinite loop.
 
+### Message Packing and Unpacking Using Python
+
+In Python, you can use the [`struct` package](https://docs.python.org/3/library/struct.html#format-characters) to bit-pack your messages for transmission according to a given protocol format.  For example, an ICMP packet consists of the following fields, where the multi-byte fields are in network (big-endian) byte order:
+
+* 1 byte for the ICMP message type
+* 1 byte for the ICMP code
+* 1 unsigned short (2 bytes) for the checksum
+* 1 unsigned short (2 bytes) for the packet ID
+* 1 signed short (2 bytes) for the sequence number
+
+We can represent this in Python easily using the `struct` package as follows:
+
+```python
+import struct
+
+format = '!BBHHh' # byte, byte, short (2 bytes), short, short, in ! network byte big-endian order
+message = struct.pack(format, 0, 0, 0, 0, 0) # replace the 0's with each value specified in the format string
+```
+
+Similarly, `struct.unpack` takes a format string and a byte array, and returns a collection of variables, one for each field:
+
+```python
+import struct
+
+type, code, checksum, id, seq = struct.unpack(format, message) # see message and format above
+```
+
 ### Other Hints
 
 Don't forget to re-initialize your variables each time through the loop (for example, your `checksum` should start out as `0`, and your initial `icmptype` is `8`)!  You should set the TTL each time through the loop (incrementing by `1` each time).

@@ -251,6 +251,7 @@ schedule:
 - week: "1"
   date: "2" 
   title: "Socket Programming"
+  link: "./Activities/SocketProgramming"
   readings:
   - rtitle: "Redbook Ch. 11"
     rlink: false  
@@ -269,7 +270,11 @@ schedule:
   title: "Multithreaded Socket Programming"    
 - week: "2"
   date: "2" 
-  title: "Multithreaded Socket Programming"      
+  title: "Multithreaded Socket Programming"   
+  deliverables: 
+  - dtitle: "Programming Assignment: Mini Crypto Handed Out"
+    dlink: "./Assignments/MiniCrypto"
+    points: 100    
 - week: "3"
   date: "0"
   title: "The Physical Layer: Considerations"
@@ -303,6 +308,9 @@ schedule:
   - rtitle: "The RFC Video"
     rlink: "https://www.youtube.com/watch?v=8IXLpoN8Xj0"
   deliverables:
+  - dtitle: "Programming Assignment: Mini Crypto Due"
+    dlink: "./Assignments/MiniCrypto"
+    points: 100   
   - dtitle: "Programming Assignment: Introduction to the RFC Handed Out"  
     dlink: "Assignments/RFC"
     points: 100 
