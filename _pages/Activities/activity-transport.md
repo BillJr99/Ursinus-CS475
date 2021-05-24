@@ -176,6 +176,27 @@ info:
         - "How does TCP Tahoe improve over TCP Reno by avoiding a return to Slow Start from the beginning on packet loss?"
         - "What would be the advantages and disadvantages of leaving Slow Start after observing rising round trip times, rather than waiting for a loss, as TCP Vegas does?"
         - "Suppose you have a UDP socket open and transmitting, causing congestion on the network.  The TCP senders throttle back automatically due to congestion control.  What happens to the UDP sender?  Over time, what happens to the throughputs of the TCP senders?"
+    - model: |
+        <div>
+        <span>\(RTT_{i} = \alpha \times RTT_{i-1} + (1 - \alpha) \times t\)</span>
+        </div>
+      title: "Avoiding a Return to Slow Start by Monitoring the Round Trip Time"
+      questions: 
+        - "Describe, in your own words, how the Round Trip Time is updated at each iteration."
+        - "What do you think is the purpose of the <span>\(\alpha\)</span> term, which is a value between <code>0</code> and <code>1</code>?"
+        - "What does it mean if <span>\(\alpha\)</span> is <code>0.5</code>?  How about <code>0</code> and <code>1</code>?"
+    - model: |
+        <div>
+        <span>\(RTT_{i} = RTT_{i-1} \times (\alpha \times (t - RTT_{i-1}))\)</span>
+        <br>
+        <span>\(Deviation_{i} = Deviation_{i-1} + \frac{1}{4} \times (|t - RTT_{i-1}| - Deviation_{i-1})\)</span>
+        <br>
+        <span>\(TimeOut = RTT_{i} + 4 \times Deviation_{i}\)</span>
+        </div>
+      title: "Improved Round Trip Time Estimation with the Jacobson/Karels Algorithm"
+      questions: 
+        - "What new feature of the Round Trip Time is being utilized to estimate a good timeout interval?"
+        - "Why do you think powers of <code>2</code> were selected for the constants in these formulas?"
         
 tags:
   - transport
