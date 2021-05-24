@@ -247,21 +247,38 @@ schedule:
   - rtitle: "Kurose and Ross: Networks Under Attack"
     rlink: "https://youtu.be/yukwBqSwAkg"    
   - rtitle: "Kurose and Ross: History of Computer Networking"
-    rlink: "https://youtu.be/l4q8iuqbuiQ"       
+    rlink: "https://youtu.be/l4q8iuqbuiQ"  
 - week: "1"
-  date: "2"
-  title: "The Physical Layer: Considerations"
-  link: "./Activities/PhysicalLayer"
+  date: "2" 
+  title: "Socket Programming"
+  readings:
+  - rtitle: "Redbook Ch. 11"
+    rlink: false  
+  - rtitle: "Kurose and Ross: Socket Programming"
+    rlink: "https://youtu.be/_iHMMo7SDfQ"   
   deliverables:
   - dtitle: "Participation: Pre-Assessment Due"
     dlink: "./Assignments/Participation/PreAssessment"
     points: 10 
-    submission_types: "written"            
+    submission_types: "written"   
+- week: "2"
+  date: "0" 
+  title: "Socket Programming"  
+- week: "2"
+  date: "1" 
+  title: "Multithreaded Socket Programming"    
+- week: "2"
+  date: "2" 
+  title: "Multithreaded Socket Programming"      
+- week: "3"
+  date: "0"
+  title: "The Physical Layer: Considerations"
+  link: "./Activities/PhysicalLayer"           
   readings:
   - rtitle: "Dordal Ch. 2"
     rlink: false  
-- week: "2"
-  date: "0"
+- week: "3"
+  date: "1"
   title: "TDMA with CSMA and ALOHA"  
   deliverables:
   - dtitle: "Lab: HTTP with Wireshark Handed Out"
@@ -271,16 +288,16 @@ schedule:
   readings:
   - rtitle: "Transoceanic Cable Video"
     rlink: "https://www.youtube.com/watch?v=T96P2d2UVsQ"  
-- week: "2"
-  date: "1"
+- week: "3"
+  date: "2"
   title: "CSMA and ALOHA" 
   deliverables:
   - dtitle: "Lab: Wireshark Overview Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Intro_v8.0.pdf"  
     points: 10    
     submission_types: "written"        
-- week: "2"
-  date: "2"
+- week: "4"
+  date: "0"
   title: "Ethernet"  
   readings:
   - rtitle: "The RFC Video"
@@ -290,8 +307,8 @@ schedule:
     dlink: "Assignments/RFC"
     points: 100 
     submission_types: "written"        
-- week: "3"
-  date: "0"
+- week: "4"
+  date: "1"
   title: "Wi-Fi with FDMA and CDMA Wireless Protocols"
   readings:
   - rtitle: "Dordal Ch. 4"
@@ -303,15 +320,15 @@ schedule:
   - dtitle: "Lab: Ethernet with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Ethernet_ARP_v8.0.pdf"     
     points: 10   
-- week: "3"
-  date: "1"
+- week: "4"
+  date: "2"
   title: "The Link Layer" 
   link: "./Activities/LinkLayer"  
   readings:
   - rtitle: "Dordal Ch. 5"
     rlink: false   
-- week: "3"
-  date: "2"
+- week: "5"
+  date: "0"
   title: "Switching" 
   readings:
   - rtitle: "Dordal Ch. 6"
@@ -320,8 +337,8 @@ schedule:
     rlink: "https://youtu.be/lMGWJZLTulY"
   - rtitle: "Kurose and Ross: Error Detection and Correction"
     rlink: "https://youtu.be/x-rQ3RiI7I0"     
-- week: "4"
-  date: "0"
+- week: "5"
+  date: "1"
   title: "From Bits to Packets" 
   readings:
   - rtitle: "Dordal Ch. 7"
@@ -337,8 +354,8 @@ schedule:
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_802.11_v8.0.pdf"   
     points: 10    
     submission_types: "written"        
-- week: "4"
-  date: "1"
+- week: "5"
+  date: "2"
   title: "The Network Layer and IPv4"  
   link: "./Activities/NetworkLayer"
   readings:
@@ -350,8 +367,8 @@ schedule:
     rlink: "https://youtu.be/sdIpLuIR1ZY"   
   - rtitle: "Kurose and Ross: The Internet Protocol Part 2"
     rlink: "https://youtu.be/H9DivCEFuUg"       
-- week: "4"
-  date: "2"
+- week: "6"
+  date: "0"
   title: "IPv4 Addressing and Subnets"  
   readings:
   - rtitle: "Kurose and Ross: Generalized Forwarding"
@@ -363,8 +380,8 @@ schedule:
     dlink: "Assignments/RFC"
     points: 100   
     submission_types: "written"            
-- week: "5"
-  date: "0"
+- week: "6"
+  date: "2"
   title: "IPv4 Addressing and Subnets" 
   deliverables:
   - dtitle: "Lab: Wi-Fi with Wireshark Due"
@@ -375,16 +392,16 @@ schedule:
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_IP_v8.0.pdf"      
     points: 10
     submission_types: "written"        
-- week: "5"
-  date: "1"
+- week: "7"
+  date: "0"
   title: "IP Multiplexing with NAT"  
   deliverables:
   - dtitle: "Midterm Exam: Midterm Handed Out"
     dlink: false
     points: 100  
     submission_types: "written"            
-- week: "5"
-  date: "2"
+- week: "7"
+  date: "1"
   title: "Outside Address Lookups with DNS" 
   deliverables:    
   - dtitle: "Lab: IP with Wireshark Due"
@@ -402,8 +419,8 @@ schedule:
     rlink: false      
   - rtitle: "Kurose and Ross: DNS"
     rlink: "https://youtu.be/6lRcMh5Yphg"    
-- week: "6"
-  date: "0"
+- week: "7"
+  date: "2"
   title: "Inside Address Lookups with ARP" 
   deliverables:
   - dtitle: "Participation: First Self-Assessment Handed Out"
@@ -414,8 +431,8 @@ schedule:
     dlink: false
     points: 100    
     submission_types: "written"        
-- week: "6"
-  date: "2"
+- week: "8"
+  date: "0"
   title: "Dynamic Configuration with DHCP"
   deliverables:
   - dtitle: "Lab: NAT with Wireshark Due"
@@ -426,8 +443,8 @@ schedule:
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DHCP_v8.0.pdf"    
     points: 10
     submission_types: "written"        
-- week: "7"
-  date: "0"
+- week: "8"
+  date: "1"
   title: "ICMP and Ping" 
   readings:
   - rtitle: "Kurose and Ross: The Internet Control Message Protocol (ICMP)"
@@ -435,8 +452,8 @@ schedule:
   deliverables:
   - dtitle: "Programming Assignment: Traceroute Handed Out"
     dlink: "./Assignments/Traceroute"  
-- week: "7"
-  date: "1"
+- week: "8"
+  date: "2"
   title: "IPv6"  
   deliverables:
     - dtitle: "Participation: First Self-Assessment Due"
@@ -446,8 +463,8 @@ schedule:
   readings:
   - rtitle: "Dordal Ch. 11"
     rlink: false   
-- week: "7"
-  date: "2"
+- week: "9"
+  date: "0"
   title: "VPN and Tunneling" 
   deliverables:
   - dtitle: "Lab: DHCP with Wireshark Due"
@@ -458,8 +475,8 @@ schedule:
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_ICMP_v8.0.pdf"     
     points: 10
     submission_types: "written"        
-- week: "8"
-  date: "0"
+- week: "9"
+  date: "1"
   title: "Routing" 
   link: "./Activities/Routing"
   readings:
@@ -473,14 +490,14 @@ schedule:
     rlink: "https://youtu.be/NfHR94JAO-s"   
   - rtitle: "Kurose and Ross: What's Inside a Router? Part 2"
     rlink: "https://youtu.be/zfzzz9KQOog"     
-- week: "8"
-  date: "1"
+- week: "9"
+  date: "2"
   title: "Distance Vector Algorithms"
   readings:
   - rtitle: "Kurose and Ross: Intra-AS Routing"
     rlink: "https://youtu.be/iUQmn3nNjaI"   
-- week: "8"
-  date: "2"
+- week: "10"
+  date: "0"
   title: "Hierarchical Routing"  
   deliverables:
   - dtitle: "Lab: ICMP with Wireshark Due"
@@ -490,8 +507,8 @@ schedule:
   readings:
   - rtitle: "Dordal Ch. 14"
     rlink: false   
-- week: "9"
-  date: "0"
+- week: "10"
+  date: "2"
   title: "Routing at Scale: BGP"
   readings:
   - rtitle: "Dordal Ch. 15"
@@ -501,8 +518,8 @@ schedule:
   deliverables:
   - dtitle: "Programming Assignment: Traceroute Due"
     dlink: "./Assignments/Traceroute"   
-- week: "9"
-  date: "1"
+- week: "11"
+  date: "0"
   title: "The Transport Layer: Considerations"
   link: "./Activities/TransportLayer"
   deliverables: 
@@ -516,23 +533,20 @@ schedule:
     rlink: "https://youtu.be/lAvhH0XJLNE"      
   - rtitle: "Kurose and Ross: Multiplexing"
     rlink: "https://youtu.be/CekW6ipRrGA"        
-- week: "9"
+- week: "11"
   date: "2"
   title: "Basic Transport Services with UDP"
   readings:
   - rtitle: "Kurose and Ross: Connectionless Transport with UDP"
     rlink: "https://youtu.be/VjBDgcNno-Q"    
-- week: "10"
-  date: "0"
-  title: "UDP"  
-- week: "10"
-  date: "2"
-  title: "Coordinating Transport Services with TCP" 
   deliverables:
   - dtitle: "Lab: UDP with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_UDP_v8.0.pdf" 
     points: 10  
-    submission_types: "written"            
+    submission_types: "written"       
+- week: "12"
+  date: "0"
+  title: "Coordinating Transport Services with TCP" 
   readings:
   - rtitle: "Dordal Ch. 17"
     rlink: false  
@@ -540,27 +554,40 @@ schedule:
     rlink: "https://youtu.be/nyUHUtmxWg0"      
   - rtitle: "Kurose and Ross: Principles of Reliable Data Transfer Part 2"
     rlink: "https://youtu.be/vxgH6r-II2Q"          
-- week: "11"
-  date: "0"
+- week: "12"
+  date: "1"
   title: "TCP" 
   readings:
   - rtitle: "Kurose and Ross: Connection Oriented Transport with TCP Part 1"
     rlink: "https://youtu.be/UYJP-6mhF6E"      
   - rtitle: "Kurose and Ross: Connection Oriented Transport with TCP Part 2"
-    rlink: "https://youtu.be/E4I6t0mI_is"  
-- week: "11"
-  date: "1"
-  title: "TCP Sliding Window Protocols"  
+    rlink: "https://youtu.be/E4I6t0mI_is"   
+- week: "12"
+  date: "2"
+  title: "TCP Sliding Window Protocols"   
   readings:
   - rtitle: "Dordal Ch. 8"
     rlink: false 
-- week: "11"
-  date: "2"
+  deliverables:
+  - dtitle: "Lab: UDP with Wireshark Due"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_UDP_v8.0.pdf" 
+    points: 10
+    submission_types: "written"        
+  - dtitle: "Lab: TCP with Wireshark Handed Out"
+    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_TCP_v8.0.pdf"     
+    points: 10
+    submission_types: "written"    
+- week: "13"
+  date: "0"
   title: "Congestion Management with TCP"  
   deliverables: 
   - dtitle: "Programming Assignment: HTTP Client Due"
     dlink: "Assignments/HTTPClient"
-    points: 100  
+    points: 100 
+  - dtitle: "Participation: Second Self-Assessment Handed Out"
+    dlink: "./Assignments/Participation/SelfAssessment"
+    points: 10 
+    submission_types: "written"     
   readings:
   - rtitle: "Dordal Ch. 18"
     rlink: false  
@@ -572,19 +599,14 @@ schedule:
     rlink: "https://youtu.be/oRUIEmpzk0Y" 
   - rtitle: "Kurose and Ross: Transport Layer Summary"
     rlink: "https://youtu.be/XPPsub35eNY"      
-- week: "12"
-  date: "0"
+- week: "13"
+  date: "1"
   title: "Application Layer Protocols"  
   link: "./Activities/ApplicationLayer"
   deliverables:
-  - dtitle: "Lab: UDP with Wireshark Due"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_UDP_v8.0.pdf" 
-    points: 10
-    submission_types: "written"        
-  - dtitle: "Lab: TCP with Wireshark Handed Out"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_TCP_v8.0.pdf"     
-    points: 10
-    submission_types: "written"        
+  - dtitle: "Programming Assignment: TFTP Handed Out"  
+    dlink: "Assignments/TFTP"
+    points: 100     
   readings:
   - rtitle: "Redbook Ch. 16"
     rlink: false
@@ -594,40 +616,17 @@ schedule:
     rlink: "https://youtu.be/S9GEPaQ1lFs"   
   - rtitle: "Kurose and Ross: The Web and HTTP Part 2"
     rlink: "https://youtu.be/4M39gEPWPYs"     
-- week: "12"
-  date: "1"
+- week: "13"
+  date: "2"
   title: "HTTP and SMTP"  
   link: "/Ursinus-WebMobile-HTTP"
+  readings:
+  - rtitle: "Kurose and Ross: Video Streaming and Content Distribution"
+    rlink: "https://youtu.be/ak5bbb-xHLI"    
   deliverables:
   - dtitle: "Final Project: Project and Presentation Handed Out"
     dlink: "Projects/Final"  
     points: 100   
-  readings:
-  - rtitle: "Redbook Ch. 15"
-    rlink: false  
-  - rtitle: "Kurose and Ross: Email"
-    rlink: "https://youtu.be/D3GMrOMR2dk"
-  - rtitle: "Why Files Become Bigger in Emails (Encoding) from Computerphile"
-    rlink: "https://www.youtube.com/watch?v=zV-fR7xA4Hc"
-- week: "12"
-  date: "2"
-  title: "Socket Programming"   
-  readings:
-  - rtitle: "Redbook Ch. 11"
-    rlink: false  
-  - rtitle: "Kurose and Ross: Video Streaming and Content Distribution"
-    rlink: "https://youtu.be/ak5bbb-xHLI" 
-  - rtitle: "Kurose and Ross: Socket Programming"
-    rlink: "https://youtu.be/_iHMMo7SDfQ" 
-  deliverables:
-  - dtitle: "Programming Assignment: TFTP Handed Out"  
-    dlink: "Assignments/TFTP"
-    points: 100  
-    submission_types: "written"        
-- week: "13"
-  date: "0"
-  title: "Socket Programming"  
-  deliverables:
   - dtitle: "Lab: TCP with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_TCP_v8.0.pdf"
     points: 10
@@ -635,36 +634,35 @@ schedule:
   - dtitle: "Lab: DNS with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DNS_v8.0.pdf"     
     points: 10      
-    submission_types: "written"        
-- week: "13"
-  date: "1"
-  title: "Multithreaded Socket Programming"    
-  deliverables:
-    - dtitle: "Participation: Second Self-Assessment Handed Out"
-      dlink: "./Assignments/Participation/SelfAssessment"
-      points: 10 
-      submission_types: "written"        
-- week: "13"
-  date: "2"
+    submission_types: "written"       
+  readings:
+  - rtitle: "Redbook Ch. 15"
+    rlink: false  
+  - rtitle: "Kurose and Ross: Email"
+    rlink: "https://youtu.be/D3GMrOMR2dk"
+  - rtitle: "Why Files Become Bigger in Emails (Encoding) from Computerphile"
+    rlink: "https://www.youtube.com/watch?v=zV-fR7xA4Hc"       
+- week: "14"
+  date: "0"
   title: "Security and Privacy"
   link: "./Activities/SecurityPrivacy"    
   readings:
   - rtitle: "Redbook Ch. 22"
     rlink: false  
 - week: "14"
-  date: "0"
+  date: "1"
   title: "Security and Privacy"
   deliverables:
-  - dtitle: "Lab: DNS with Wireshark Due"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DNS_v8.0.pdf"  
-    points: 10    
-    submission_types: "written"            
-  - dtitle: "Lab: SSL with Wireshark Handed Out"
-    dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_SSL_v8.0.pdf"     
-    points: 10
-    submission_types: "written"        
+    - dtitle: "Lab: DNS with Wireshark Due"
+      dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DNS_v8.0.pdf"  
+      points: 10     
+      submission_types: "written"            
+    - dtitle: "Lab: SSL with Wireshark Handed Out"
+      dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_SSL_v8.0.pdf"     
+      points: 10
+      submission_types: "written"               
 - week: "14"
-  date: "1"
+  date: "2"
   title: "Security and Privacy with Public Key Cryptosystems"
   deliverables:   
     - dtitle: "Participation: Second Self-Assessment Due"
