@@ -38,4 +38,4 @@ The Registrar wishes to do this as efficiently as possible, and so students woul
 
 1. What questions and answers might you ask of the Registrar to learn about course availability and to register for classes?
 2. What errors might you anticipate (as an example, a class might be full), and what messages should be sent back and forth to note the different types of errors?
-3. Diagram a flow chart that allows a student to register for a course, learn whether their registration was successful, and continue registering for courses, one-by-one, until the registration process is complete.
+3. Diagram a **flow chart** that allows a student to register for a course, learn whether their registration was successful, and continue registering for courses, one-by-one, until the registration process is complete.  Each arrow connecting the states in your flow chart should represent a message sent or received.  Each message should have an opcode (a unique number), followed by more information in whatever format you choose (more numeric codes, text, or a combination of the two).  Write down the format you chose for your messages!

@@ -387,7 +387,10 @@ schedule:
   - dtitle: "Programming Assignment: Introduction to the RFC Due"  
     dlink: "Assignments/RFC"
     points: 100   
-    submission_types: "written"            
+    submission_types: "written"  
+  - dtitle: "Programming Assignment: FSM Handed Out"  
+    dlink: "Assignments/FSM"
+    points: 100    
 - week: "6"
   date: "2"
   title: "IPv4 Addressing and Subnets" 
@@ -458,6 +461,9 @@ schedule:
   - rtitle: "Kurose and Ross: The Internet Control Message Protocol (ICMP)"
     rlink: "https://youtu.be/EHV0Q0R--Ns"  
   deliverables:
+  - dtitle: "Programming Assignment: FSM Due"  
+    dlink: "Assignments/FSM"
+    points: 100   
   - dtitle: "Programming Assignment: Traceroute Handed Out"
     dlink: "./Assignments/Traceroute"  
 - week: "8"

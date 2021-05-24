@@ -231,10 +231,6 @@ As a summary, here is what to do.  You might want to write separate programs (pr
 
 Create your own versions of each of the functions in the RSAMath library given to you, and use those instead in your programs!
 
-## Exporting your Project for Submission
-
-When you're done, write a README for your project, and save all your files, before exporting your project to ZIP.  In your README, answer any bolded questions presented on this page.  Here is a [video tutorial](../Modules/IDE/Module2) describing how to write a README for your project, and how to export it.  
-
 ## A Note About Export Controls
 
 Some governments, including the United States, have [export controls on cryptographic technologies](https://en.wikipedia.org/wiki/Export_of_cryptography_from_the_United_States). 
