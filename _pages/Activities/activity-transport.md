@@ -197,6 +197,7 @@ info:
       questions: 
         - "What new feature of the Round Trip Time is being utilized to estimate a good timeout interval?"
         - "Why do you think powers of <code>2</code> were selected for the constants in these formulas?"
+        - "How does the role of <span>\\(\\alpha\\)</span> differ between the original definition and this one?"
         
 tags:
   - transport
