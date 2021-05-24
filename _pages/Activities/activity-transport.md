@@ -8,7 +8,7 @@ info:
   goals: 
     - To describe the role of the Transport Layer
     - "To describe protocols for various levels of quality-of-service including UDP and TCP"
-    - To explain how congestion managemnt is handled in a distributed and passive manner using TCP
+    - To explain how congestion management is handled in a distributed and passive manner using TCP
     - "To differentiate between quality-of-service levels with different Transport Layer protocols"
     - "To define a sliding window protocol using TCP for efficient and in-order buffered communications"
         
@@ -175,7 +175,7 @@ info:
         - "How might you compute a round trip time estimate for determining that a packet has been lost?  Should you assume a loss as soon as this estimate has been reached?"
         - "How does TCP Tahoe improve over TCP Reno by avoiding a return to Slow Start from the beginning on packet loss?"
         - "What would be the advantages and disadvantages of leaving Slow Start after observing rising round trip times, rather than waiting for a loss, as TCP Vegas does?"
-        - "Suppose you have a UDP socket open and transmitting, causing congestion on the network.  The TCP senders throttle back automatically due to congestion control.  What happens to the UDP sender?  Over time, what happens to the throughputs of the TCP senders?"
+        - "Suppose you have a UDP socket open and transmitting, causing congestion on the network.  The TCP senders throttle back automatically due to congestion control.  What happens to the UDP sender?  Over time, what happens to the throughputs of the TCP senders?  What can we do to make throughput more fair for everyone?"
     - model: |
         <div>
         <span>\(RTT_{i} = \alpha \times RTT_{i-1} + (1 - \alpha) \times t\)</span>
@@ -198,6 +198,15 @@ info:
         - "What new feature of the Round Trip Time is being utilized to estimate a good timeout interval?"
         - "Why do you think powers of <code>2</code> were selected for the constants in these formulas?"
         - "How does the role of <span>\\(\\alpha\\)</span> differ between the original definition and this one?"
+    - model: |
+        <div>
+        <img src="https://d3i71xaburhd42.cloudfront.net/9b7eb88be27bdbc790969c8997e76ce2fbb56b12/4-Figure1-1.png" alt="Nagle's Algorithm Transmission Timeline; Mogul, J. and G. Minshall. &quot;Rethinking the TCP Nagle algorithm.&quot; Comput. Commun. Rev. 31 (2001): 6-20.">
+        </div>
+      title: "The Small Packet Problem and Nagle's Algorithm"
+      questions: 
+        - "How large would each packet be if a sentence was transmitted one character at a time over TCP?"
+        - "How might we reduce this overhead?  Specifically, from the diagram, how long does Nagle propose to buffer data before sending a single unifed packet?  In other words, what event triggers a a TCP transmission when using Nagle's Algorithm?"
+        - "What do you think the <code>TCP_NODELAY</code> TCP configuration parameter means?  How about <code>TCP_QUICKACK</code>?  What problem do you think each one solves?"
         
 tags:
   - transport
