@@ -183,8 +183,8 @@ info:
       title: "Avoiding a Return to Slow Start by Monitoring the Round Trip Time"
       questions: 
         - "Describe, in your own words, how the Round Trip Time is updated at each iteration."
-        - "What do you think is the purpose of the <span>\\(\alpha\\)</span> term, which is a value between <code>0</code> and <code>1</code>?"
-        - "What does it mean if <span>\\(\alpha\\)</span> is <code>0.5</code>?  How about <code>0</code> and <code>1</code>?"
+        - "What do you think is the purpose of the <span>\\(\\alpha\\)</span> term, which is a value between <code>0</code> and <code>1</code>?"
+        - "What does it mean if <span>\\(\\alpha\\)</span> is <code>0.5</code>?  How about <code>0</code> and <code>1</code>?"
     - model: |
         <div>
         <span>\(RTT_{i} = RTT_{i-1} \times (\alpha \times (t - RTT_{i-1}))\)</span>
