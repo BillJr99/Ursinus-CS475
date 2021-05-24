@@ -31,6 +31,7 @@ info:
       title: "Multithreaded TCP Socket Programming"
       questions: 
         - "What is different about this example?  What can it do that the prior example cannot?"
+        - "Suppose you have multiple concurrent chat connections, but only one <code>System.in</code> standard input stream.  How might you determine which socket should send each line that the user types in?"
     - model: |
         <div>
         <iframe height="400px" width="100%" src="https://www.baeldung.com/udp-in-java"></iframe>  
