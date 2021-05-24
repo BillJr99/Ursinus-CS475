@@ -76,7 +76,25 @@ def read_response(conn):
     return data
 ```
 
-Test your client by connecting to a known webserver and verify that you receive a response.  Print out each header and value via `data.split()`, which returns an array of lines of text in the response.  If `len(line.strip()) == 0`, you know you've reached a blank line.  Until then, you can split the line on the `:` character to separate the key from the value of each line of the header.  Print those separately, and then print the entire body when you have run out of header lines (in other words, after reaching the first blank line!).
+Test your client by connecting to a known webserver and verify that you receive a response.  Notice that you may encounter an infinite loop inside the `read_response` loop above!  That's because your socket is waiting to receive 1024 bytes of data.  If the response (or the remaining chunk to be read) is smaller than 1024 bytes, the socket will wait, just like a `stdin` reader would wait for you to type input at the keyboard.  Let's fix this!
+
+Read a smaller number of bytes in your loop, until a newline character is received.  You know that the first line of the HTTP response is the status line, which you can `split` by space to determine the response code.  An HTTP response takes the form: 
+
+```
+HTTP/1.1 200 OK\r\n
+```
+
+Following this line, the HTTP headers take the form:
+
+```
+Key: Value\r\n
+Key: Value\r\n
+Key: Value\r\n
+...
+\r\n\r\n
+```
+
+Print out each header and value via `data.split()`, which returns an array of lines of text in the response.  If `len(line.strip()) == 0`, you know you've reached a blank line.  Until then, you can split the line on the `:` character to separate the key from the value of each line of the header.  Print those separately, and then print the entire body when you have run out of header lines (in other words, after reaching the first blank line!).
 
 ## Extra Credit (50%): HTTP Server
 Similarly, write an HTTP server that listens on a port (non-administrators can't listen on ports below 1024, so you might try port 8080 or something similar).  
