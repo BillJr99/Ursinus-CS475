@@ -3,3 +3,7 @@ uploadghclassroom.sh
 updatecalendar.sh
 geckodriver.log
 files/private/**
+do-jekyll.sh
+Gemfile*
+_site
+.sass-cache
