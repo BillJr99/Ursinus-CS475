@@ -21,9 +21,11 @@ info:
   course_description: "Architecture and protocols of computer networks. Protocol layers; network topology; data-communication principles, including circuit switching, packet switching and error control techniques; sliding window protocols, protocol analysis and verification; routing and flow control; local and wide area networks; network interconnection; client-server interaction; emerging networking trends and technologies; topicsin security and privacy. This course will satisfy the College requirement for a capstone experience in the major. Prerequisite or co-requisite: CS-274. Offered in the spring of odd years. Three hours per week. Four semester hours."
   welcome_message: "Welcome to CS475!"
   zoom:
-  - section:
-      zoomlink: "https://ursinus-edu.zoom.us/j/98917954390"
-      phonenumberlink: "https://ursinus-edu.zoom.us/u/acxWkcVQ7O"
+    zoomrecordings: "Panopto on Canvas"
+    links:
+    - section:
+        zoomlink: "https://ursinus-edu.zoom.us/j/98917954390"
+        phonenumberlink: "https://ursinus-edu.zoom.us/u/acxWkcVQ7O"
   class_meets_days:
     isM: true
     isT: false
