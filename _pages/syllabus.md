@@ -84,33 +84,25 @@ instructors:
   picture: /images/profile.png
   officehours:
   - day: "M"
-    starttime: "5:00 PM"
-    endtime: "6:00 PM"
-    location: "Virtual Office Hours on Microsoft Teams Help Room"  
-  - day: "T"
-    starttime: "9:00 AM"
-    endtime: "10:50 AM"
-    location: "Virtual Office Hours on Microsoft Teams Help Room"   
-  - day: "T"
-    starttime: "2:00 PM"
-    endtime: "3:00 PM"
-    location: "Virtual Office Hours on Microsoft Teams Help Room"       
+    starttime: "12:00 PM"
+    endtime: "1:00 PM"
+    location: "Pfahler 101L"        
   - day: "W"
-    starttime: "5:00 PM"
-    endtime: "6:00 PM"
-    location: "Virtual Office Hours on Microsoft Teams Help Room"
+    starttime: "12:00 PM"
+    endtime: "1:00 PM"
+    location: "Pfahler 101L" 
   - day: "R"
     starttime: "9:00 AM"
     endtime: "10:00 AM"
-    location: "Virtual Office Hours on Microsoft Teams Help Room"    
+    location: "Pfahler 101L" 
   - day: "R"
     starttime: "11:00 AM"
     endtime: "12:00 PM"
-    location: "Virtual Office Hours on Microsoft Teams Help Room"        
+    location: "Pfahler 101L" 
   - day: "F"
-    starttime: "1:30 PM"
-    endtime: "3:30 PM"
-    location: "Virtual Office Hours on Microsoft Teams Help Room"  
+    starttime: "12:00 PM"
+    endtime: "1:00 PM"
+    location: "Pfahler 101L" 
     
 textbooks:
 - title: "An Introduction to Computer Networks"
@@ -392,7 +384,7 @@ schedule:
     dlink: "Assignments/FSM"
     points: 100    
 - week: "6"
-  date: "2"
+  date: "1"
   title: "IPv4 Addressing and Subnets" 
   deliverables:
   - dtitle: "Lab: Wi-Fi with Wireshark Due"
@@ -403,16 +395,16 @@ schedule:
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_IP_v8.0.pdf"      
     points: 10
     submission_types: "written"        
-- week: "7"
-  date: "0"
+- week: "6"
+  date: "2"
   title: "IP Multiplexing with NAT"  
   deliverables:
   - dtitle: "Midterm Exam: Midterm Handed Out"
     dlink: false
     points: 100  
     submission_types: "written"            
-- week: "7"
-  date: "1"
+- week: "8"
+  date: "0"
   title: "Outside Address Lookups with DNS" 
   deliverables:    
   - dtitle: "Lab: IP with Wireshark Due"
@@ -430,8 +422,8 @@ schedule:
     rlink: false      
   - rtitle: "Kurose and Ross: DNS"
     rlink: "https://youtu.be/6lRcMh5Yphg"    
-- week: "7"
-  date: "2"
+- week: "8"
+  date: "1"
   title: "Inside Address Lookups with ARP" 
   deliverables:
   - dtitle: "Participation: First Self-Assessment Handed Out"
@@ -443,7 +435,7 @@ schedule:
     points: 100    
     submission_types: "written"        
 - week: "8"
-  date: "0"
+  date: "2"
   title: "Dynamic Configuration with DHCP"
   deliverables:
   - dtitle: "Lab: NAT with Wireshark Due"
@@ -454,8 +446,8 @@ schedule:
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_DHCP_v8.0.pdf"    
     points: 10
     submission_types: "written"        
-- week: "8"
-  date: "1"
+- week: "9"
+  date: "0"
   title: "ICMP and Ping" 
   readings:
   - rtitle: "Kurose and Ross: The Internet Control Message Protocol (ICMP)"
@@ -466,8 +458,8 @@ schedule:
     points: 100   
   - dtitle: "Programming Assignment: Traceroute Handed Out"
     dlink: "./Assignments/Traceroute"  
-- week: "8"
-  date: "2"
+- week: "9"
+  date: "1"
   title: "IPv6"  
   deliverables:
     - dtitle: "Participation: First Self-Assessment Due"
@@ -478,7 +470,7 @@ schedule:
   - rtitle: "Dordal Ch. 11"
     rlink: false   
 - week: "9"
-  date: "0"
+  date: "2"
   title: "VPN and Tunneling" 
   deliverables:
   - dtitle: "Lab: DHCP with Wireshark Due"
@@ -489,8 +481,8 @@ schedule:
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_ICMP_v8.0.pdf"     
     points: 10
     submission_types: "written"        
-- week: "9"
-  date: "1"
+- week: "10"
+  date: "0"
   title: "Routing" 
   link: "./Activities/Routing"
   readings:
@@ -504,14 +496,14 @@ schedule:
     rlink: "https://youtu.be/NfHR94JAO-s"   
   - rtitle: "Kurose and Ross: What's Inside a Router? Part 2"
     rlink: "https://youtu.be/zfzzz9KQOog"     
-- week: "9"
-  date: "2"
+- week: "10"
+  date: "1"
   title: "Distance Vector Algorithms"
   readings:
   - rtitle: "Kurose and Ross: Intra-AS Routing"
     rlink: "https://youtu.be/iUQmn3nNjaI"   
 - week: "10"
-  date: "0"
+  date: "2"
   title: "Hierarchical Routing"  
   deliverables:
   - dtitle: "Lab: ICMP with Wireshark Due"
@@ -521,8 +513,8 @@ schedule:
   readings:
   - rtitle: "Dordal Ch. 14"
     rlink: false   
-- week: "10"
-  date: "2"
+- week: "11"
+  date: "0"
   title: "Routing at Scale: BGP"
   readings:
   - rtitle: "Dordal Ch. 15"
@@ -533,7 +525,7 @@ schedule:
   - dtitle: "Programming Assignment: Traceroute Due"
     dlink: "./Assignments/Traceroute"   
 - week: "11"
-  date: "0"
+  date: "1"
   title: "The Transport Layer: Considerations"
   link: "./Activities/TransportLayer"
   deliverables: 
