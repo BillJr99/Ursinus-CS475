@@ -6,7 +6,6 @@ excerpt: "CS475: Computer Networks"
     
 info:
   course_number: CS475
-  course_number: CS475
   course_sections: 
   - section: "A"
   course_title: "Computer Networks"
