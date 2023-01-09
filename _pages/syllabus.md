@@ -15,7 +15,7 @@ info:
   class_notebook: https://ursinuscollege365-my.sharepoint.com/personal/wmongan_ursinus_edu/Documents/Class%20Notebooks/CS475%20Spring%202023
   ical: files/CS475.ics
   course_prerequisites: "CS274"
-  course_start_date: "2023/01/18"
+  course_start_date: "2023/01/16"
   course_end_date: "2023/05/03"
   course_description: "Architecture and protocols of computer networks. Protocol layers; network topology; data-communication principles, including circuit switching, packet switching and error control techniques; sliding window protocols, protocol analysis and verification; routing and flow control; local and wide area networks; network interconnection; client-server interaction; emerging networking trends and technologies; topicsin security and privacy. This course will satisfy the College requirement for a capstone experience in the major. Prerequisite or co-requisite: CS-274. Offered in the spring of odd years. Three hours per week. Four semester hours."
   welcome_message: "Welcome to CS475!"
