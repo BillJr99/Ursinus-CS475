@@ -676,9 +676,12 @@ schedule:
       submission_types: "written"        
     - dtitle: "Programming Assignment: TFTP Due"  
       dlink: "Assignments/TFTP"
-      points: 100              
+      points: 100   
 - week: "15"
   date: "0"
+  title: "Review"      
+- week: "15"
+  date: "1"
   title: "Review"
   deliverables:
   - dtitle: "Final Project: Project and Presentation Due"
