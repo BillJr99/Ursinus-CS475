@@ -22,6 +22,9 @@ info:
     Specifically, we will collectively consider questions like:
     <ul>
     <li>What happens when one requests a webpage from a popular website like Google?</li>
+    <li>How can we organize the complexity of a global network into smaller components that we can understand, standardize, and optimize independently?</li>
+    <li>How can we use standards to establish protocols to communiate over the Internet in ways that satisfy heterogeneous use cases and requirements?</li>
+    <li>How are security and privacy built into the network?</li>
     </ul>  
   class_meets_days:
     isM: true
