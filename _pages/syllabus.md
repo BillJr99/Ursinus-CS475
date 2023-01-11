@@ -325,7 +325,12 @@ schedule:
   link: "./Activities/LinkLayer"  
   readings:
   - rtitle: "Dordal Ch. 5"
-    rlink: false   
+    rlink: false  
+  deliverables:
+  - dtitle: "Midterm Exam: Midterm Handed Out"
+    dlink: false
+    points: 100  
+    submission_types: "written"      
 - week: "5"
   date: "0"
   title: "Switching" 
@@ -365,7 +370,11 @@ schedule:
   - rtitle: "Kurose and Ross: The Internet Protocol Part 1"
     rlink: "https://youtu.be/sdIpLuIR1ZY"   
   - rtitle: "Kurose and Ross: The Internet Protocol Part 2"
-    rlink: "https://youtu.be/H9DivCEFuUg"       
+    rlink: "https://youtu.be/H9DivCEFuUg"
+  - dtitle: "Midterm Exam: Midterm Due"
+    dlink: false
+    points: 100    
+    submission_types: "written"      
 - week: "6"
   date: "0"
   title: "IPv4 Addressing and Subnets"  
@@ -396,12 +405,7 @@ schedule:
     submission_types: "written"        
 - week: "6"
   date: "2"
-  title: "IP Multiplexing with NAT"  
-  deliverables:
-  - dtitle: "Midterm Exam: Midterm Handed Out"
-    dlink: false
-    points: 100  
-    submission_types: "written"            
+  title: "IP Multiplexing with NAT"            
 - week: "8"
   date: "0"
   title: "Outside Address Lookups with DNS" 
@@ -428,11 +432,7 @@ schedule:
   - dtitle: "Participation: First Self-Assessment Handed Out"
     dlink: "./Assignments/Participation/SelfAssessment"
     points: 10 
-    submission_types: "written"        
-  - dtitle: "Midterm Exam: Midterm Due"
-    dlink: false
-    points: 100    
-    submission_types: "written"        
+    submission_types: "written"              
 - week: "8"
   date: "2"
   title: "Dynamic Configuration with DHCP"
