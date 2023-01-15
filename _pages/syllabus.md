@@ -269,6 +269,7 @@ schedule:
   - dtitle: "Programming Assignment: Mini Crypto Handed Out"
     dlink: "./Assignments/MiniCrypto"
     points: 100    
+    rubricpath: "_pages/Assignments/asmt-minicrypto.md"
 - week: "3"
   date: "0"
   title: "The Physical Layer: Considerations"
@@ -305,10 +306,12 @@ schedule:
   - dtitle: "Programming Assignment: Mini Crypto Due"
     dlink: "./Assignments/MiniCrypto"
     points: 100   
+    rubricpath: "_pages/Assignments/asmt-minicrypto.md"
   - dtitle: "Programming Assignment: Introduction to the RFC Handed Out"  
     dlink: "Assignments/RFC"
     points: 100 
     submission_types: "written"        
+    rubricpath: "_pages/Assignments/asmt-rfc.md"
 - week: "4"
   date: "1"
   title: "Wi-Fi with FDMA and CDMA Wireless Protocols"
@@ -391,9 +394,11 @@ schedule:
     dlink: "Assignments/RFC"
     points: 100   
     submission_types: "written"  
+    rubricpath: "_pages/Assignments/asmt-rfc.md"
   - dtitle: "Programming Assignment: FSM Handed Out"  
     dlink: "Assignments/FSM"
     points: 100    
+    rubricpath: "_pages/Assignments/asmt-fsm.md"
 - week: "6"
   date: "1"
   title: "IPv4 Addressing and Subnets" 
@@ -458,8 +463,10 @@ schedule:
   - dtitle: "Programming Assignment: FSM Due"  
     dlink: "Assignments/FSM"
     points: 100   
+    rubricpath: "_pages/Assignments/asmt-fsm.md"
   - dtitle: "Programming Assignment: Traceroute Handed Out"
     dlink: "./Assignments/Traceroute"  
+    rubricpath: "_pages/Assignments/asmt-traceroute.md"
 - week: "9"
   date: "1"
   title: "IPv6"  
@@ -526,6 +533,8 @@ schedule:
   deliverables:
   - dtitle: "Programming Assignment: Traceroute Due"
     dlink: "./Assignments/Traceroute"   
+    points: 100
+    rubricpath: "_pages/Assignments/asmt-minicrypto.md"
 - week: "11"
   date: "1"
   title: "The Transport Layer: Considerations"
@@ -534,6 +543,7 @@ schedule:
   - dtitle: "Programming Assignment: HTTP Client Handed Out"
     dlink: "Assignments/HTTPClient"
     points: 100
+    rubricpath: "_pages/Assignments/asmt-http.md"
   readings:
   - rtitle: "Dordal Ch. 16"
     rlink: false   
@@ -592,6 +602,7 @@ schedule:
   - dtitle: "Programming Assignment: HTTP Client Due"
     dlink: "Assignments/HTTPClient"
     points: 100 
+    rubricpath: "_pages/Assignments/asmt-http.md"
   - dtitle: "Participation: Second Self-Assessment Handed Out"
     dlink: "./Assignments/Participation/SelfAssessment"
     points: 10 
@@ -614,7 +625,8 @@ schedule:
   deliverables:
   - dtitle: "Programming Assignment: TFTP Handed Out"  
     dlink: "Assignments/TFTP"
-    points: 100     
+    points: 100    
+    rubricpath: "_pages/Assignments/asmt-tftp.md"    
   readings:
   - rtitle: "Redbook Ch. 16"
     rlink: false
@@ -634,7 +646,8 @@ schedule:
   deliverables:
   - dtitle: "Final Project: Project and Presentation Handed Out"
     dlink: "Projects/Final"  
-    points: 100   
+    points: 100  
+    rubricpath: "_pages/Projects/proj-final.md"
   - dtitle: "Lab: TCP with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_TCP_v8.0.pdf"
     points: 10
@@ -680,6 +693,7 @@ schedule:
     - dtitle: "Programming Assignment: TFTP Due"  
       dlink: "Assignments/TFTP"
       points: 100   
+      rubricpath: "_pages/Assignments/asmt-tftp.md"
 - week: "15"
   date: "0"
   title: "Review"      
@@ -690,10 +704,12 @@ schedule:
   - dtitle: "Final Project: Project and Presentation Due"
     dlink: "Projects/Final"
     points: 100
+    rubricpath: "_pages/Projects/proj-final.md"
   - dtitle: "Lab: SSL with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_SSL_v8.0.pdf" 
     points: 10   
-    submission_types: "written"            
+    submission_types: "written"  
+    
 university:
   semester: "Spring"
   academicyear: "2022-23"
