@@ -377,6 +377,7 @@ schedule:
     rlink: "https://youtu.be/sdIpLuIR1ZY"   
   - rtitle: "Kurose and Ross: The Internet Protocol Part 2"
     rlink: "https://youtu.be/H9DivCEFuUg"
+  deliverables:
   - dtitle: "Midterm Exam: Midterm Due"
     dlink: false
     points: 100    
