@@ -34,6 +34,15 @@ info:
         - "Suppose you have multiple concurrent chat connections, but only one <code>System.in</code> standard input stream.  How might you determine which socket should send each line that the user types in?"
     - model: |
         <div>
+        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/PythonClientSocket?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
+        <br>
+        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/PythonServerSocket?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>         
+        </div>
+      title: "TCP Socket Programming with Python"
+      questions: 
+        - "Do you think this program would work with the Java socket programs?  Why or why not?"
+    - model: |
+        <div>
         <iframe height="400px" width="100%" src="https://www.baeldung.com/udp-in-java"></iframe>  
         </div>
       title: "UDP Socket Programming"
