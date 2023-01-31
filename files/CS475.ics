@@ -177,18 +177,18 @@ BEGIN:VEVENT
 UID:00000000-0000-0000-0000-0451f2100c0e
 DTSTAMP:20230201T000000Z
 DTSTART;VALUE=DATE:20230201
-SUMMARY:CS475 Computer Networks: Class Meeting
+SUMMARY:CS475 Computer Networks: Programming Assignment: Mini Crypto Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
 UID:00000000-0000-0000-0000-0451f2100c0f
-DTSTAMP:20230203T000000Z
-DTSTART;VALUE=DATE:20230203
-SUMMARY:CS475 Computer Networks: Programming Assignment: Mini Crypto Handed Out
+DTSTAMP:20230201T000000Z
+DTSTART;VALUE=DATE:20230201
+SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:\nDeliverable: Programming Assignment: Mini Crypto Handed Out https://www.billmongan.com/Ursinus-CS475-Spring2023/./Assignments/MiniCrypto
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
@@ -197,7 +197,7 @@ DTSTAMP:20230203T000000Z
 DTSTART;VALUE=DATE:20230203
 SUMMARY:CS475 Computer Networks: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Programming Assignment: Mini Crypto Handed Out https://www.billmongan.com/Ursinus-CS475-Spring2023/./Assignments/MiniCrypto
+DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
