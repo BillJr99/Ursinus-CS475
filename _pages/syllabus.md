@@ -49,7 +49,7 @@ info:
       endtime: "9:50 AM"
       place: "PFA 007"
   midtermexam: 
-    - mdate: "2021/02/24"
+    - mdate: "2023/03/01"
       mstarttime: "9:00 AM"
       mendtime: "9:50 AM"
       mroom: "Regular Class Period"      
@@ -332,11 +332,6 @@ schedule:
   readings:
   - rtitle: "Dordal Ch. 5"
     rlink: false  
-  deliverables:
-  - dtitle: "Midterm Exam: Midterm Handed Out"
-    dlink: false
-    points: 100  
-    submission_types: "written"      
 - week: "5"
   date: "0"
   title: "Switching" 
@@ -363,6 +358,10 @@ schedule:
   - dtitle: "Lab: Wi-Fi with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_802.11_v8.0.pdf"   
     points: 10    
+    submission_types: "written"     
+  - dtitle: "Midterm Exam: Midterm Handed Out"
+    dlink: false
+    points: 100  
     submission_types: "written"        
 - week: "5"
   date: "2"
@@ -377,11 +376,6 @@ schedule:
     rlink: "https://youtu.be/sdIpLuIR1ZY"   
   - rtitle: "Kurose and Ross: The Internet Protocol Part 2"
     rlink: "https://youtu.be/H9DivCEFuUg"
-  deliverables:
-  - dtitle: "Midterm Exam: Midterm Due"
-    dlink: false
-    points: 100    
-    submission_types: "written"      
 - week: "6"
   date: "0"
   title: "IPv4 Addressing and Subnets"  
@@ -411,7 +405,11 @@ schedule:
   - dtitle: "Lab: IP with Wireshark Handed Out"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_IP_v8.0.pdf"      
     points: 10
-    submission_types: "written"        
+    submission_types: "written"    
+  - dtitle: "Midterm Exam: Midterm Due"
+    dlink: false
+    points: 100    
+    submission_types: "written"      
 - week: "6"
   date: "2"
   title: "IP Multiplexing with NAT"            
