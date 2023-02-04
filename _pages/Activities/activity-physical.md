@@ -43,10 +43,11 @@ info:
         - "What is the difference between Pure ALOHA and Slotted ALOHA?  What is the vulnerable time period for two packets of size T using Slotted ALOHA?  Which is more efficient?"
     - model: |
         <div align="left">
-        The probability of <code>x</code> nodes transmitting a frame at the beginning of a Slotted ALOHA frame, when assuming that, on average, nodes transmit with probability <code>G</code>, is defined by a Poisson Distribution (an asymptotic extension of the Binomial Distribution): <span>\(P(x) = \frac{G^{x} e^{-G}}{x!}\)</span>.  
+        The probability of <code>x</code> nodes transmitting a frame at the beginning of a Slotted ALOHA frame, when assuming that, on average, nodes transmit with probability <code>G</code>, is defined by a Poisson Distribution (an asymptotic extension of the Binomial Distribution): <span>\(P(x) = \frac{G^{x} e^{-nG}}{x!}\)</span>, where <code>n</code> is 1 for slotted ALOHA, and 2 for ALOHA.  
         </div>
       title: "ALOHA Transmission Efficiency"
       questions: 
+        - "Why do you think <code>n = 2</code> for pure ALOHA in the formula above?"
         - "What is <code>P(1)</code>, the probability that exactly one node will transmit in a frame using Slotted ALOHA?"
         - "In unslotted ALOHA, we must assume that only one node transmits during a specific frame, and also that no node transmits during the prior frame, to avoid a collision.  These are independent events, so the unslotted probability is <code>P = P(1) P(0)</code>.  What is this, and how does it relate to the Slotted ALOHA probability of successful transmission?"
         - "Take the derivative of the probability function for slotted ALOHA and for unslotted ALOHA, and set it equal to 0 to maximize the function.  At what value of <code>G</code> is each maximized?  Plug in this value and set <code>x</code> equal to 1 to observe the maximum transmission efficiency."        
