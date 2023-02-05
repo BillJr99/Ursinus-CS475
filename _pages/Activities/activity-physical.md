@@ -31,6 +31,7 @@ info:
         - "At what point would you determine that your message was corrupted due to a collision?  What would you do about it?"
         - "Hubs are essentially repeater devices that echo the data from one sender to all ports on the hub.  Why is this inefficient, and what could we do about it?"
         - "Hubs even echo a packet back to the sender: why is this useful for collision detection purposes?  Draw a diagram showing that a collision can occur even if two senders begin transmission on a clear line."
+        - "We transmit data using bits, which are either 1 (on) or 0 (off).  You can imagine this as a tone that is either on or off.  Why can't we simply set the voltage or tone to high to transmit a 1, or simply turn it low or off to transmit a 0?"
     - model: |
         <a title="helix84, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Pure_ALOHA.svg"><img width="512" alt="Pure ALOHA" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Pure_ALOHA.svg/512px-Pure_ALOHA.svg.png"></a>
         <br>
