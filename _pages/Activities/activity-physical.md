@@ -38,7 +38,7 @@ info:
         <a title="helix84, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Slotted_ALOHA.svg"><img width="512" alt="Slotted ALOHA" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Slotted_ALOHA.svg/512px-Slotted_ALOHA.svg.png"></a>
         <br>
         <a title="!Original: KyurimVector: fl.  This vector image includes elements that have been taken or adapted from this file: Aloha SvG.PNG (by Kyurim)., CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Aloha_PureVsSlotted.svg"><img width="256" alt="Aloha PureVsSlotted" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Aloha_PureVsSlotted.svg/256px-Aloha_PureVsSlotted.svg.png"></a>
-      title: "One Approach to Multiple Access: The ALOHA Protocol"
+      title: "One Approach to Multiple Access: Time Division Multiple Access (TDMA): The ALOHA Protocol"
       questions: 
         - "In Pure ALOHA, those who wish to transmit do so without checking if the medium is clear.  Collisions can happen at any time.  If a collision occurs, the nodes back off for a random period of time.  If any part of a transmission is corrupted, the whole frame is discarded; therefore, for how long is the transmission of two packets of size T vulnerable to collision with one another?"        
         - "What is the difference between Pure ALOHA and Slotted ALOHA?  What is the vulnerable time period for two packets of size T using Slotted ALOHA?  Which is more efficient?"
@@ -118,7 +118,7 @@ info:
         <a title="jjgarcia.tsc, Attribution, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Csma_ca.svg"><img width="256" alt="Csma ca" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Csma_ca.svg/256px-Csma_ca.svg.png"></a>
         <br>
         <a title="Michael Gauthier, Wireless Networking in the Developing World KelleyCook, image improvements Whidou, French translation, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:2.4_GHz_Wi-Fi_channels_(802.11b,g_WLAN).svg"><img width="512" alt="2.4 GHz Wi-Fi channels (802.11b,g WLAN)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/2.4_GHz_Wi-Fi_channels_%28802.11b%2Cg_WLAN%29.svg/512px-2.4_GHz_Wi-Fi_channels_%28802.11b%2Cg_WLAN%29.svg.png"></a>
-      title: "Wireless Protocols Including IEEE 802.11"
+      title: "Frequency Division Multiple Access (FDMA): Wireless Protocols Including IEEE 802.11"
       questions: 
         - "Why can't we use CSMA/CD with WiFi like we could with Ethernet?  Hint: the problem described by the three wireless nodes A, B, and C above is called the &quot;Hidden Node Problem&quot;"
         - "What are some ways we can mitigate the Hidden Node Problem?"
