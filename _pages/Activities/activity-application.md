@@ -23,6 +23,7 @@ info:
         - "What are some HTTP client headers and what do they do?"
         - "How do you upload a file via HTTP?"
         - "Since socket I/O is typically a blocking call, how can you know how much data to read from the socket so that you don't block forever waiting for data that never arrives?"
+        - "How do you know when you are finished sending or receiving headers?  How do you parse each header?  How do you know when HTTP (or web page) data begins and ends?"
     - model: |
         <script type="syntaxhighlighter" class="brush: java"><![CDATA[
         S: 220 smtp.example.com ESMTP Postfix
