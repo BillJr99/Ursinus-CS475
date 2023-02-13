@@ -159,13 +159,15 @@ char decryptedChar = (char) decrypted;
 
 Modify your program to send your public key values at the start of the program over your socket, and receive your partner's public keys.  Instead of sending character data, send long integers representing each encrypted character of your user's messages.  Similarly, when receiving a message, receive these long integers, and decrypt them.
 
+One consideration is how to let your receiver know you're finished sending encrypted values.  One way to do this is to send a 0 at the end of your transmission, which you'll note is the null terminator.  Another option is to send an int representing the number of encrypted character values you're about to transmit.  You get to choose!
+
 ## Summary
 
 As a summary, here is what to do.  You might want to write separate programs (projects) for each of these, and export and submit each of them.  It's up to you!
 
 * Using a multi-threaded socket connection, write a server that accepts connections from various clients, and spawns a thread for each such connection.  For each connection, spawn a sending thread and a receiving thread that allows the user to input and receive messages from their corresponding partner.  Choose a special message that will cause both sides to quit.
 * Add message encryption and decryption to your program.  To do this, first generate a key to share with the class.  Share your `E` and `C` public key, but keep your `D` private key value a secret that you will use later!  
-* Exchange public keys before exchanging messages over the socket.
+* Exchange public keys before exchanging messages over the socket.  To do this, you can have your sender thread send E and C as a first step, or have your socket send and receive E and C prior to spawning the sender and receiver threads.  Pass these values to your sender and receiver as needed, either through the constructor, or though setter methods.
 * Encrypt messages prior to sending them over the socket, and decrypt them upon receiving them over the socket.  Note that you will now receive long integers instead of characters.
 
 ## A Note About Export Controls
