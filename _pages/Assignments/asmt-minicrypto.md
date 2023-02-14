@@ -167,14 +167,15 @@ As a summary, here is what to do.  You might want to write separate programs (pr
 
 * Using a multi-threaded socket connection, write a server that accepts connections from various clients, and spawns a thread for each such connection.  For each connection, spawn a sending thread and a receiving thread that allows the user to input and receive messages from their corresponding partner.  Choose a special message that will cause both sides to quit.
 * Add message encryption and decryption to your program.  To do this, first generate a key to share with the class.  Share your `E` and `C` public key, but keep your `D` private key value a secret that you will use later!  
-* Exchange public keys before exchanging messages over the socket.  To do this, you can have your sender thread send E and C as a first step, or have your socket send and receive E and C prior to spawning the sender and receiver threads.  Pass these values to your sender and receiver as needed, either through the constructor, or though setter methods.
+* Exchange public keys before exchanging messages over the socket.  To do this, you can have your sender thread send E and C as a first step, or have your socket send and receive E and C prior to spawning the sender and receiver threads.  Pass these values to your sender and receiver as needed, either through the constructor, or though setter methods.  You can pass the same variables to both the sender and receiver threads (for example, `partnerE` and `partnerC`), and use them to encrypt in the sender, but read them prior to your receive loop in the receiver.  Alternatively, you can pass your sender object to the constructor of your receiver, and have the receiver call a `setter` method in the sender when it receives your partner's public key `E` and `C`.
+  * After your receiver reads your partner's keys, it can start the general receive loop of messages to be decrypted.  Similarly, your sender can start its loop to read your user's messages from the console, encrypt them, and send over the network.  To ensure that you don't try to encrypt any messages from the sender prior to setting your partner's encryption keys, it's a good idea to have a line like this prior to your sender thread loop: `while(this.partnerE == -1 || this.partnerC == -1);` to wait until those keys are set by the receiver.  You can set `partnerE` and `partnerC` to `-1` in the constructor of the sender thread class.
 * Encrypt messages prior to sending them over the socket, and decrypt them upon receiving them over the socket.  Note that you will now receive long integers instead of characters.
 
 ## A Note About Export Controls
 
 Some governments, including the United States, have [export controls on cryptographic technologies](https://en.wikipedia.org/wiki/Export_of_cryptography_from_the_United_States). 
 
-## Additional Background
+## (Optional Reading) Additional Background
 
 ### Using the Product of Large Prime Numbers for Public and Private Keys
 We will generate a public key (that we share with the public, like our map with the number sums filled in above), and a private key (that we keep to ourselves, like the solution to the Vertex Cover problem that extracts the secret meaning from our encrypted message), using the RSA Cryptosystem.  This system is based upon the product of two large prime numbers.  The private key relies on the idea that it is very difficult to obtain the original prime factors from these large products.  
