@@ -21,9 +21,12 @@ info:
   models:
     - model: |
         <a href="https://commons.wikimedia.org/wiki/File:Ethernet_Type_II_Frame_format.svg#/media/File:Ethernet_Type_II_Frame_format.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Ethernet_Type_II_Frame_format.svg/1200px-Ethernet_Type_II_Frame_format.svg.png" alt="Ethernet Type II Frame format.svg"></a><br>Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=1546835">Link</a>
+        <br>
+        <a title="Self-made, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Ethernet_frame.svg"><img width="512" alt="Ethernet frame" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Ethernet_frame.svg/512px-Ethernet_frame.svg.png"></a>
       title: "A Link Layer Ethernet Frame Encapsulating a Packet"
       questions: 
         - "These packets are comprised of individual bits, so that a receiver observes a stream of ones and zeros.  How can we be sure we're reading from the start of a message, and that we didn't start listening in the middle?"
+        - "What do you think it means to &quot;frame&quot; a packet?  What might a &quot;preamble&quot; have to do with framing at the link layer?"
         - "What constitutes an address at the link layer?  How large is this address, and how does it differ from an IP address?"
         - "The Ethernet frame is nothing more than a sequence of bits.  How might we indicate <a href=\"https://en.wikipedia.org/wiki/Ethernet_frame#Structure\">when a packet begins and ends</a> so that receivers know how to parse the data?"
         - "An 802.11 WiFi frame supports additional message types to request permission and acknowledge permission to and from an access point to communicate.  Why does this differ from an 802.3 Ethernet frame?"
