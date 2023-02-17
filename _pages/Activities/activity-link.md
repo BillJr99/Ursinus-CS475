@@ -50,7 +50,7 @@ info:
         - "The resulting encoding can be thought of as a remainder.  In your own words, what is the relationship between the remainder, the input, and the polynomial coefficient bits?"
     - model: |
         <div>
-        <img src="https://wiki.wireshark.org/AddressResolutionProtocol?action=AttachFile&do=get&target=arp.png" alt="Wireshark ARP Trace">
+        <img src="https://wiki.wireshark.org/uploads/__moin_import__/attachments/AddressResolutionProtocol/arp.png" alt="Wireshark ARP Trace">
         <br>
         <a title="Geek2003, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:2550T-PWR-Front.jpg"><img width="512" alt="2550T-PWR-Front" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2550T-PWR-Front.jpg/512px-2550T-PWR-Front.jpg"></a>
         </div>
