@@ -276,7 +276,9 @@ schedule:
   link: "./Activities/PhysicalLayer"           
   readings:
   - rtitle: "Dordal Ch. 2"
-    rlink: false  
+    rlink: false 
+  - rtitle: "Sending Digital Information over a Wire by Ben Eater"
+    rlink: "https://www.youtube.com/watch?v=XaGXPObx2Gs&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=1"  
 - week: "3"
   date: "1"
   title: "TDMA with CSMA and ALOHA"  
@@ -295,7 +297,10 @@ schedule:
   - dtitle: "Lab: Wireshark Overview Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Intro_v8.0.pdf"  
     points: 10    
-    submission_types: "written"        
+    submission_types: "written"  
+  readings:
+  - rtitle: "Intro to Fiber Optics and Encoding by Ben Eater"
+    rlink: "https://www.youtube.com/watch?v=lUo45NqPyq8&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=2"   
 - week: "4"
   date: "0"
   title: "Ethernet"  
@@ -317,7 +322,9 @@ schedule:
   title: "Wi-Fi with FDMA and CDMA Wireless Protocols"
   readings:
   - rtitle: "Dordal Ch. 4"
-    rlink: false   
+    rlink: false  
+  - rtitle: "Clock Synchronization and Manchester Encoding by Ben Eater"
+    rlink: "https://www.youtube.com/watch?v=8BhjXqw9MqI&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=3"      
   deliverables: 
   - dtitle: "Lab: HTTP with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_HTTP_v8.0.pdf"   
@@ -332,6 +339,10 @@ schedule:
   readings:
   - rtitle: "Dordal Ch. 5"
     rlink: false  
+  - rtitle: "Analyzing Actual Ethernet Encoding by Ben Eater"
+    rlink: "https://www.youtube.com/watch?v=i8CmibhvZ0c&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=4" 
+  - rtitle: "The Importance of Framing by Ben Eater"
+    rlink: "https://www.youtube.com/watch?v=xrVN9jKjIKQ&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=5"      
 - week: "5"
   date: "0"
   title: "Switching" 
@@ -341,7 +352,7 @@ schedule:
   - rtitle: "Kurose and Ross: The Link Layer"
     rlink: "https://youtu.be/lMGWJZLTulY"
   - rtitle: "Kurose and Ross: Error Detection and Correction"
-    rlink: "https://youtu.be/x-rQ3RiI7I0"     
+    rlink: "https://youtu.be/x-rQ3RiI7I0"      
 - week: "5"
   date: "1"
   title: "From Bits to Packets" 
@@ -349,7 +360,11 @@ schedule:
   - rtitle: "Dordal Ch. 7"
     rlink: false    
   - rtitle: "Kurose and Ross: Multiple Access Links and Protocols"
-    rlink: "https://youtu.be/X2cLpzFRMT4"  
+    rlink: "https://youtu.be/X2cLpzFRMT4"
+  - rtitle: "Frame Formats by Ben Eater"
+    rlink: "https://www.youtube.com/watch?v=1XrRT0CmzYw&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=6"     
+  - rtitle: "Lower Layers of the OSI Model by Ben Eater"
+    rlink: "https://www.youtube.com/watch?v=MGAaTqFct_I&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=7"       
   deliverables:
   - dtitle: "Lab: Ethernet with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_Ethernet_ARP_v8.0.pdf"   
@@ -376,6 +391,8 @@ schedule:
     rlink: "https://youtu.be/sdIpLuIR1ZY"   
   - rtitle: "Kurose and Ross: The Internet Protocol Part 2"
     rlink: "https://youtu.be/H9DivCEFuUg"
+  - rtitle: "The Internet Protocol by Ben Eater"
+    rlink: "https://www.youtube.com/watch?v=rPoalUa4m8E&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=8"       
 - week: "6"
   date: "0"
   title: "IPv4 Addressing and Subnets"  
@@ -439,7 +456,10 @@ schedule:
   - dtitle: "Participation: First Self-Assessment Handed Out"
     dlink: "./Assignments/Participation/SelfAssessment"
     points: 10 
-    submission_types: "written"              
+    submission_types: "written" 
+  readings:
+  - rtitle: "ARP by Ben Eater"
+    rlink: "https://www.youtube.com/watch?v=xNbdeyEI-nE&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=10"   
 - week: "8"
   date: "2"
   title: "Dynamic Configuration with DHCP"
@@ -457,7 +477,9 @@ schedule:
   title: "ICMP and Ping" 
   readings:
   - rtitle: "Kurose and Ross: The Internet Control Message Protocol (ICMP)"
-    rlink: "https://youtu.be/EHV0Q0R--Ns"  
+    rlink: "https://youtu.be/EHV0Q0R--Ns"
+  - rtitle: "Looking at ARP and Ping Packets by Ben Eater"
+    rlink: "https://www.youtube.com/watch?v=aamG4-tH_m8&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=9"     
   deliverables:
   - dtitle: "Programming Assignment: FSM Due"  
     dlink: "Assignments/FSM"
@@ -509,7 +531,9 @@ schedule:
   title: "Distance Vector Algorithms"
   readings:
   - rtitle: "Kurose and Ross: Intra-AS Routing"
-    rlink: "https://youtu.be/iUQmn3nNjaI"   
+    rlink: "https://youtu.be/iUQmn3nNjaI" 
+  - rtitle: "Hop by Hop Routing by Ben Eater"
+    rlink: "https://www.youtube.com/watch?v=VWJ8GmYnjTs&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=11"      
 - week: "10"
   date: "2"
   title: "Hierarchical Routing"  
@@ -585,6 +609,10 @@ schedule:
   readings:
   - rtitle: "Dordal Ch. 8"
     rlink: false 
+  - rtitle: "TCP by Ben Eater"
+    rlink: "https://www.youtube.com/watch?v=4IMc3CaMhyY&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=12"
+  - rtitle: "TCP Connection Walkthrough by Ben Eater"
+    rlink: "https://www.youtube.com/watch?v=F27PLin3TV0&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=13"      
   deliverables:
   - dtitle: "Lab: UDP with Wireshark Due"
     dlink: "http://www-net.cs.umass.edu/wireshark-labs/Wireshark_UDP_v8.0.pdf" 
@@ -642,6 +670,8 @@ schedule:
   readings:
   - rtitle: "Kurose and Ross: Video Streaming and Content Distribution"
     rlink: "https://youtu.be/ak5bbb-xHLI"    
+  - rtitle: "Service Outages by Ben Eater"
+    rlink: "https://www.youtube.com/watch?v=-wMU8vmfaYo&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=14"       
   deliverables:
   - dtitle: "Final Project: Project and Presentation Handed Out"
     dlink: "Projects/Final"  
