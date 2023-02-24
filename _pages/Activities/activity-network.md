@@ -20,7 +20,8 @@ info:
       
   models:
     - model: |
-        <img width="512" alt="IPv4 Packet-en" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/IPv4_Packet-en.svg/512px-IPv4_Packet-en.svg.png">
+        <a title="Michel Bakni
+, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:IPv4_Packet-en.svg"><img width="512" alt="IPv4 Packet-en" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/IPv4_Packet-en.svg/512px-IPv4_Packet-en.svg.png"></a>
       title: "The IP Packet Header"
       questions: 
         - "What types of protocols can we denote in an IP Packet?"
@@ -29,7 +30,7 @@ info:
         - "What addresses are placed in the source and destination fields?  How might this differ from the MAC addresses used in the Link Layer header?"
         - "What, if any, information helps the IP protocol to provide throughput control, error correction, or packet ordering?  What, in your own words, is &quot;Best Effort&quot; quality-of-service?"
     - model: |
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Ipv4_address.svg/1200px-Ipv4_address.svg.png" alt="Ipv4 address.svg">
+        <a href="https://commons.wikimedia.org/wiki/File:Ipv4_address.svg#/media/File:Ipv4_address.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Ipv4_address.svg/1200px-Ipv4_address.svg.png" alt="Ipv4 address.svg"></a><br>By <a href="https://en.wikipedia.org/wiki/en:User:Indeterminate" class="extiw" title="w:en:User:Indeterminate">Indeterminate</a> - <span class="int-own-work" lang="en">Own work</span>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=2868206">Link</a>
       title: "IP Addressing"
       questions: 
         - "How large is an IPv4 Address?  What is the largest and smallest value that can be represented by each octet?"
