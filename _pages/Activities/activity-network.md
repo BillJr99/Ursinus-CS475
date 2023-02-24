@@ -20,7 +20,7 @@ info:
       
   models:
     - model: |
-        <a href="https://commons.wikimedia.org/wiki/File:IPv4_Packet-en.svg"><img width="512" alt="IPv4 Packet-en" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/IPv4_Packet-en.svg/512px-IPv4_Packet-en.svg.png"></a><br>Michel Bakni, CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0 via Wikimedia Commons
+        <a title="Michel Bakni, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:IPv4_Packet-en.svg"><img width="512" alt="IPv4 Packet-en" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/IPv4_Packet-en.svg/512px-IPv4_Packet-en.svg.png"></a>
       title: "The IP Packet Header"
       questions: 
         - "What types of protocols can we denote in an IP Packet?"
