@@ -45,4 +45,6 @@ Write a program that asks the user to type either a letter `A` or a letter `B`, 
 
 Implement this program with a loop and a conditional that checks the input character and the current state value, setting the new state value appropriately each time through the loop.
 
-When finished, draw a diagram representing these states, and from each state, draw an arrow labeled `A` and one labeled `B` to the appropriate next state that you wrote in your program.
+Then, draw a diagram representing these states, and from each state, draw an arrow labeled `A` and one labeled `B` to the appropriate next state that you wrote in your program.
+
+When finished, implement a socket program that sends these characters one at a time to a server, who responds with the current state number reached by reading this character.
