@@ -20,7 +20,7 @@ info:
       
   models:
     - model: |
-        <a title="Michel Bakni, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:IPv4_Packet_-en.svg"><img width="512" alt="IPv4 Packet -en" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/IPv4_Packet_-en.svg/512px-IPv4_Packet_-en.svg.png"></a>
+        <a title="Michel Bakni, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:IPv4_Packet-en.svg"><img width="512" alt="IPv4 Packet-en" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/IPv4_Packet-en.svg/512px-IPv4_Packet-en.svg.png"></a>
       title: "The IP Packet Header"
       questions: 
         - "What types of protocols can we denote in an IP Packet?"
@@ -35,7 +35,7 @@ info:
         - "How large is an IPv4 Address?  What is the largest and smallest value that can be represented by each octet?"
         - "How many IPv4 addresses can be allocated on the Internet?"
     - model: |
-        <a href="https://commons.wikimedia.org/wiki/File:PDU_Fragmentaion_-_en.png#/media/File:PDU_Fragmentaion_-_en.png"><img src="https://upload.wikimedia.org/wikipedia/commons/8/80/PDU_Fragmentaion_-_en.png" alt="PDU Fragmentaion - en.png"></a><br>By <a href="https://www.wikidata.org/wiki/Q81411358" class="extiw" title="d:Q81411358"><span title="Syrian Wikimedian">Michel Bakni</span></a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=70267999">Link</a>
+        <a title="Michel Bakni, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:PDU_Fragmentation-en.png"><img width="512" alt="PDU Fragmentation-en" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/PDU_Fragmentation-en.png/512px-PDU_Fragmentation-en.png"></a>
       title: "IP Fragmentation"
       questions: 
         - "IP fragments are sized in 8-byte blocks.  Which fields of an IP packet are modified to indicate that this packet is a fragment, and what part of the overall packet it represents?"  
