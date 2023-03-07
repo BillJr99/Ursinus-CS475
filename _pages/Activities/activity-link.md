@@ -31,6 +31,8 @@ info:
         - "The Ethernet frame is nothing more than a sequence of bits.  How might we indicate <a href=\"https://en.wikipedia.org/wiki/Ethernet_frame#Structure\">when a packet begins and ends</a> so that receivers know how to parse the data?"
         - "An 802.11 WiFi frame supports additional message types to request permission and acknowledge permission to and from an access point to communicate.  Why does this differ from an 802.3 Ethernet frame?"
         - "An 802.11 WiFi frame contains an additional address field beyond the sender and receiver links.  What address might this represent?"
+        - "The MAC address <code>ff:ff:ff:ff:ff:ff</code> is a reserved address that does not represent a single node.  What might this address represent, and what would a switch do upon encountering such a message?"
+        - "How might a broadcast message help to populate a switch or computer ARP table?"
     - model: |
         <div align="left">
         <code style="display:block; white-space:pre-wrap">
