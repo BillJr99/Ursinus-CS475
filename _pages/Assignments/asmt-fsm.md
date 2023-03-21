@@ -41,7 +41,7 @@ Write a program that asks the user to type either a letter `A` or a letter `B`, 
 * Let `0` represent that the number of `A` and `B` characters are each even.  
 * Let `1` represent that the number of `A` characters is odd while the number of `B` characters is even.  
 * Let `2` represent that the number of `A` characters is even while the number of `B` characters is odd.  
-* Let `3` represent that the number of `A` and `B` characters are each even.  
+* Let `3` represent that the number of `A` and `B` characters are each odd.  
 
 Implement this program with a loop and a conditional that checks the input character and the current state value, setting the new state value appropriately each time through the loop.
 
