@@ -12,6 +12,10 @@ info:
   additional_reading:
     - link: "http://www-net.cs.umass.edu/kurose_ross/ppt-8e/Chapter_5_v8.0.pptx"  
       title: Kurose Notes
+    - link: https://www.interviewbit.com/blog/count-to-infinity-problem/
+      title: "Count to Infinity Problem"
+    - title: BGP
+      link: https://en.wikipedia.org/wiki/Border_Gateway_Protocol
           
   models:
     - model: |
@@ -109,6 +113,8 @@ info:
         - "Dijkstra's Algorithm is called a &quot;greedy algorithm&quot;; why do you think this is?"
         - "Execute Dijkstra's Algorithm on the graph above, using node <strong>a</strong> as the source."
         - "How many cost comparisons are required to execute this algorithm?"
+      embed: |
+        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/OSPF?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>          
     - model: |
         <div align="left">
         <code style="display:block; white-space:pre-wrap">
@@ -118,9 +124,10 @@ info:
         
         for i in range(V.length):
             for (u, v, w) in edges:
-                dist = distance[u] + v
+                dist = distance[u] + w
                 if dist < distance[v]:
                     distance[v] = dist
+                    prev[v] = u
         </code>
         </div>
       title: "Distance Vector Routing: Routing Information Protocol (RIP) and Bellman-Ford"
@@ -129,9 +136,11 @@ info:
         - "What would happen if the graph had a negative weight edge cycle?"
         - "Execute the Bellman-Ford Algorithm on the graph above, using node <strong>a</strong> as the source."
         - "How many cost comparisons are required to execute this algorithm?"
+      embed: |
+        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/RIP?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>         
     - model: |
         <a title="David Condrey, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Small_Network.png"><img width="128" alt="Small Network" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Small_Network.png"></a>
-      title: "The Count-to-Infinity Problem and Route Poisoning"
+      title: "The Count-to-Infinity Problem with Route Poisoning or Split Horizon"
       questions: 
         - "Suppose the top right node learns that it can reach the bottom-most node by going through the node at top center.  The node at top center knows that it can reach the node at the top right via a direct connection.  If the connection from the node at the top center to the bottom-most node is severed, why might it believe that it can still reach it by routing traffic through the node at the top right?  How would their network costs be affected?  What would happen to the perceived cost from the perspective of the top-right node as the top-center node updates its own cost?  This is called the Count-to-Infinity Problem." 
         - "How can we fix this?  Some node should indicate that its cost has become infinite.  Which one?  This is called Route Poisoning"
