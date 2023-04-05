@@ -136,6 +136,8 @@ info:
         - "What would happen if the graph had a negative weight edge cycle?"
         - "Execute the Bellman-Ford Algorithm on the graph above, using node <strong>a</strong> as the source."
         - "How many cost comparisons are required to execute this algorithm?"
+        - "Why might one use the Bellman-Ford Algorithm instead of Dijkstra's Algorithm for routing, when Dijkstra's Algorithm is more time efficient on a single host?"
+        - "How does a node learn what the network topology looks like to facilitate these computations?"
       embed: |
         <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/RIP?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>         
     - model: |
@@ -150,6 +152,7 @@ info:
       title: "Routing at Scale: Hierarchical Routing"
       questions: 
         - "What information needs to be shared among the edge routers, versus that information shared within each network cluster?" 
+        - "Suppose a network has a route of <code>192.168.1.0/24</code> and <code>0.0.0.0/0</code> (known as a &quot;default route&quot;).  The address <code>192.168.1.2</code> would match both of these.  Which route should you choose, and why?  How can you determine which routing table match is the &quot;best&quot; one?"
         
 tags:
   - routing
