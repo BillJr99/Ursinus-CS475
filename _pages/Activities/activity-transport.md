@@ -32,13 +32,11 @@ info:
         .tg .tg-0lax{text-align:left;vertical-align:top}
         </style>
         <table class="tg">
-        <thead>
-          <tr>
-            <th class="tg-c3ow">Source Port (16 bits)</th>
-            <th class="tg-c3ow">Destination Port (16 bits)</th>
-          </tr>
-        </thead>
         <tbody>
+          <tr>
+            <td class="tg-0lax">Source Port (16 bits)</td>
+            <td class="tg-0lax">Destination Port (16 bits)</td>
+          </tr>
           <tr>
             <td class="tg-0lax">Length (16 bits)</td>
             <td class="tg-0lax">Checksum (16 bits)</td>
@@ -65,13 +63,11 @@ info:
         .tg .tg-0lax{text-align:left;vertical-align:top}
         </style>
         <table class="tg">
-        <thead>
-          <tr>
-            <th class="tg-c3ow">Source Port (16 bits)</th>
-            <th class="tg-c3ow" colspan="3">Destination Port (16 bits)</th>
-          </tr>
-        </thead>
         <tbody>
+          <tr>
+            <td class="tg-0lax">Source Port (16 bits)</td>
+            <td class="tg-0lax" colspan="3">Destination Port (16 bits)</td>
+          </tr>
           <tr>
             <td class="tg-0lax" colspan="4">Sequence Number (32 bits)</td>
           </tr>
