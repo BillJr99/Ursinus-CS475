@@ -72,6 +72,8 @@ def read_response(conn):
         if not chunk: 
             break
         data += chunk.decode('utf-8', 'ignore')
+        if data.endswith("\r\n\r\n"): # stop receiving when the message ends with 2 blank linkes per the HTTP protocol standard
+            break
         
     return data
 ```
