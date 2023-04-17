@@ -96,9 +96,11 @@ info:
         - "How might the sender and receiver agree on starting sequence numbers?"
         - "Which fields are used to establish and terminate a connection?"
     - model: |
-        <a title="Clemente, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:TCP_CLOSE.svg"><img width="256" alt="TCP CLOSE" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/TCP_CLOSE.svg/256px-TCP_CLOSE.svg.png"></a>
+        <a title="300px-Tcp-handshake.png: derivative work: Snubcube, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Tcp-handshake.svg"><img width="256" alt="Tcp-handshake" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Tcp-handshake.svg/256px-Tcp-handshake.svg.png"></a>
         <br>
         <a title="Scil100, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Tcp_state_diagram_fixed_new.svg"><img width="512" alt="Tcp state diagram fixed new" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Tcp_state_diagram_fixed_new.svg/512px-Tcp_state_diagram_fixed_new.svg.png"></a>
+        <br>
+        <a title="Clemente, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:TCP_CLOSE.svg"><img width="256" alt="TCP CLOSE" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/TCP_CLOSE.svg/256px-TCP_CLOSE.svg.png"></a>
       title: "The Three-Way Handshake"
       questions: 
         - "Review the flowchart to terminate a connection.  How many connections are present in a typical TCP communication, and why?"
