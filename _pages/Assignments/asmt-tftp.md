@@ -35,7 +35,7 @@ tags:
 ---
 
 ## A tftp Server
-You should construct a file transfer server that is using the TFTP protocol ([RFC 1350](https://tools.ietf.org/html/rfc1350)). Part one of this assignment involves constructing the server, while part two involves constructing the client.
+You should construct a file transfer server that follows the TFTP protocol ([RFC 1350](https://tools.ietf.org/html/rfc1350)). Part one of this assignment involves constructing the server, while part two involves constructing the client.
 
 Your programs should adhere to the published specifications so that they can inter-operate with existing clients and servers.  The protocol follows this state machine \[[^1]\]:
 
@@ -61,7 +61,7 @@ This state machine can be implemented using a `do` loop and an `if` statement th
 
 ### Bit Packing with Java
 
-You can use the [`DataInputStream`](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/DataInputStream.html) and [`DataOutputStream'](https://docs.oracle.com/javase/7/docs/api/java/io/DataOutputStream.html) to send individual bytes, `short` integers, integers, etc., as part of your message format.  For example, to read a `String`, you can call `readChar()` in a loop until the character returned is equal to the null terminator `\0`.  You can append each character to a [`StringBuilder`](https://docs.oracle.com/javase/7/docs/api/java/lang/StringBuilder.html), and call its `toString()` method to obtain the resulting `String`.
+You can use the [`DataInputStream`](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/DataInputStream.html) and [`DataOutputStream`](https://docs.oracle.com/javase/7/docs/api/java/io/DataOutputStream.html) to send individual bytes, `short` integers, integers, etc., as part of your message format.  For example, to read a `String`, you can call `readChar()` in a loop until the character returned is equal to the null terminator `\0`.  You can append each character to a [`StringBuilder`](https://docs.oracle.com/javase/7/docs/api/java/lang/StringBuilder.html), and call its `toString()` method to obtain the resulting `String`.
 
 #### Network (Big-Endian) Byte Order
 
