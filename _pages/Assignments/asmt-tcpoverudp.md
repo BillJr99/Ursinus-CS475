@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Assignments/TCPOverUDP
 title: "CS475: Computer Networks - TCP over UDP"
-excerpt: "CS475: Computer Networks - TCP over UDP"
+
 
 info:
   coursenum: CS475

@@ -2,7 +2,7 @@
 layout: activity
 permalink: /Activities/MotivatingExamples
 title: "CS475: Computer Networks - Motivating Examples"
-excerpt: "CS475: Computer Networks - Motivating Examples"
+
 
 info:
   goals: 

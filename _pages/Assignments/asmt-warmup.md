@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Assignments/Warmup
 title: "CS475: Computer Networks - Warmup"
-excerpt: "CS475: Computer Networks - Warmup"
+
 
 info:
   coursenum: CS475

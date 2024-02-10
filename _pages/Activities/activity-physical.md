@@ -2,7 +2,7 @@
 layout: activity
 permalink: /Activities/PhysicalLayer
 title: "CS475: Computer Networks - The Physical Layer"
-excerpt: "CS475: Computer Networks - The Physical Layer"
+
 
 info:
   goals: 

@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Assignments/MiniCrypto
 title: "CS475: Computer Networks - Encrypted Chat Protocol"
-excerpt: "CS475: Computer Networks - Encrypted Chat Protocol"
+
 
 info:
   coursenum: CS475

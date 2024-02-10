@@ -2,7 +2,7 @@
 layout: activity
 permalink: /Activities/SecurityPrivacy
 title: "CS475: Computer Networks - Security and Privacy"
-excerpt: "CS475: Computer Networks - Security and Privacy"
+
 
 info:
   goals: 

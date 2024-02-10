@@ -2,7 +2,7 @@
 layout: syllabus
 permalink: /
 title: "CS475: Computer Networks"
-excerpt: "CS475: Computer Networks"
+
     
 info:
   course_number: CS475

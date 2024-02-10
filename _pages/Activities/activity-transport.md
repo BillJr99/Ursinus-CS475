@@ -2,7 +2,7 @@
 layout: activity
 permalink: /Activities/TransportLayer
 title: "CS475: Computer Networks - The Transport Layer"
-excerpt: "CS475: Computer Networks - The Transport Layer"
+
 
 info:
   goals: 

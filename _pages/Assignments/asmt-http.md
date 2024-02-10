@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Assignments/HTTPClient
 title: "CS475: Computer Networks - HTTP Client"
-excerpt: "CS475: Computer Networks - HTTP Client"
+
 
 info:
   coursenum: CS475

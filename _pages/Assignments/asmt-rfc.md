@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Assignments/RFC
 title: "CS475: Computer Networks - Introduction to the RFC"
-excerpt: "CS475: Computer Networks - Introduction to the RFC"
+
 
 info:
   coursenum: CS475

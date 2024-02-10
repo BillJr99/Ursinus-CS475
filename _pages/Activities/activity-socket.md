@@ -2,7 +2,7 @@
 layout: activity
 permalink: /Activities/SocketProgramming
 title: "CS475: Computer Networks - Socket Programming"
-excerpt: "CS475: Computer Networks - Socket Programming"
+
 
 info:
   goals: 

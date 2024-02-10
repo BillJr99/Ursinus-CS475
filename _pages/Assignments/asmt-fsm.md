@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Assignments/FSM
 title: "CS475: Computer Networks - Finite State Machine"
-excerpt: "CS475: Computer Networks - Finite State Machine"
+
 
 info:
   coursenum: CS475

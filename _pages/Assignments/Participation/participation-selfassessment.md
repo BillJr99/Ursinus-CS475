@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Assignments/Participation/SelfAssessment
 title: "CS475: Computer Networks - Participation Self Assessment"
-excerpt: "CS475: Computer Networks - Participation Self Assessment"
+
 
 info:
   coursenum: CS475

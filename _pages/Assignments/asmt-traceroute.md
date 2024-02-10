@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Assignments/Traceroute
 title: "CS475: Computer Networks - Traceroute"
-excerpt: "CS475: Computer Networks - Traceroute"
+
 
 info:
   coursenum: CS475

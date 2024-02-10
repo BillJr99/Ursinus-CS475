@@ -2,7 +2,7 @@
 layout: activity
 permalink: /Activities/NetworkLayer
 title: "CS475: Computer Networks - The Network Layer"
-excerpt: "CS475: Computer Networks - The Network Layer"
+
 
 info:
   goals: 

@@ -2,7 +2,7 @@
 layout: activity
 permalink: /Activities/Routing
 title: "CS475: Computer Networks - Routing Protocols"
-excerpt: "CS475: Computer Networks - Routing Protocols"
+
 
 info:
   goals: 

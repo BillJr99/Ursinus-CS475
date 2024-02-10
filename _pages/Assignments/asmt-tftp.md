@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Assignments/TFTP
 title: "CS475: Computer Networks - TFTP Protocol"
-excerpt: "CS475: Computer Networks - TFTP Protocol"
+
 
 info:
   coursenum: CS475

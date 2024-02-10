@@ -2,7 +2,7 @@
 layout: assignment
 permalink: /Projects/Final
 title: "CS475: Computer Networks - Final Project"
-excerpt: "CS475: Computer Networks - Final Project"
+
 
 info:
   coursenum: CS475
