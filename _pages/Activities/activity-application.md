@@ -14,7 +14,7 @@ info:
       
   models:
     - model: |
-        <a title="TheJosh, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Http_request_telnet_ubuntu.png"><img width="512" alt="Http request telnet ubuntu" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Http_request_telnet_ubuntu.png/512px-Http_request_telnet_ubuntu.png"></a>
+        <a title="TheJosh, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Http_request_telnet_ubuntu.png"><img width="512" alt="Http request telnet ubuntu" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Http_request_telnet_ubuntu.png"></a>
       title: "HTTP"
       questions: 
         - "If a web page contained an image, what would need to happen?  How might this be optimized?  Hint: this optimization is implemented in HTTP/1.1"

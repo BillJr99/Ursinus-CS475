@@ -86,9 +86,9 @@ info:
         - "Describe the functionality of each of the layers for a shopping service over HTTP that employs user accounts and a shopping cart.  What functionality exists at each layer?"
         - "What do you think would happen with this shopping service if the user started using a wireless connection to communicate with the web site?"
     - model: |
-        <a title="en:User:Kbrose, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:IP_stack_connections.svg"><img width="256" alt="IP stack connections" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/IP_stack_connections.svg/256px-IP_stack_connections.svg.png"></a>
+        <a title="en:User:Kbrose, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:IP_stack_connections.svg"><img width="256" alt="IP stack connections" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/IP_stack_connections.svg"></a>
         <br>
-        <a title="en:User:Cburnett original work, colorization by en:User:Kbrose, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:UDP_encapsulation.svg"><img width="512" alt="UDP encapsulation" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/UDP_encapsulation.svg/512px-UDP_encapsulation.svg.png"></a>
+        <a title="en:User:Cburnett original work, colorization by en:User:Kbrose, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:UDP_encapsulation.svg"><img width="512" alt="UDP encapsulation" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/UDP_encapsulation.svg"></a>
       title: "The TCP/IP Architecture"
       questions: 
         - "How do you think the OSI Layers map to the TCP/IP architecture?"

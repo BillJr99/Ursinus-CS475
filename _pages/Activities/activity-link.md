@@ -20,9 +20,9 @@ info:
        
   models:
     - model: |
-        <a href="https://commons.wikimedia.org/wiki/File:Ethernet_Type_II_Frame_format.svg#/media/File:Ethernet_Type_II_Frame_format.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Ethernet_Type_II_Frame_format.svg/1200px-Ethernet_Type_II_Frame_format.svg.png" alt="Ethernet Type II Frame format.svg"></a><br>Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=1546835">Link</a>
+        <a href="https://commons.wikimedia.org/wiki/File:Ethernet_Type_II_Frame_format.svg#/media/File:Ethernet_Type_II_Frame_format.svg"><img src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ethernet_Type_II_Frame_format.svg" alt="Ethernet Type II Frame format.svg"></a><br>Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=1546835">Link</a>
         <br>
-        <a title="Self-made, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Ethernet_frame.svg"><img width="512" alt="Ethernet frame" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Ethernet_frame.svg/512px-Ethernet_frame.svg.png"></a>
+        <a title="Self-made, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Ethernet_frame.svg"><img width="512" alt="Ethernet frame" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ethernet_frame.svg"></a>
       title: "A Link Layer Ethernet Frame Encapsulating a Packet"
       questions: 
         - "These packets are comprised of individual bits, so that a receiver observes a stream of ones and zeros.  How can we be sure we're reading from the start of a message, and that we didn't start listening in the middle?"
@@ -57,7 +57,7 @@ info:
         <div>
         <img src="https://wiki.wireshark.org/uploads/__moin_import__/attachments/AddressResolutionProtocol/arp.png" alt="Wireshark ARP Trace">
         <br>
-        <a title="Geek2003, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:2550T-PWR-Front.jpg"><img width="512" alt="2550T-PWR-Front" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2550T-PWR-Front.jpg/512px-2550T-PWR-Front.jpg"></a>
+        <a title="Geek2003, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:2550T-PWR-Front.jpg"><img width="512" alt="2550T-PWR-Front" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/2550T-PWR-Front.jpg"></a>
         </div>
       title: "The ARP Protocol"
       questions: 

@@ -96,11 +96,11 @@ info:
         - "How might the sender and receiver agree on starting sequence numbers?"
         - "Which fields are used to establish and terminate a connection?"
     - model: |
-        <a title="300px-Tcp-handshake.png: derivative work: Snubcube, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Tcp-handshake.svg"><img width="256" alt="Tcp-handshake" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Tcp-handshake.svg/256px-Tcp-handshake.svg.png"></a>
+        <a title="300px-Tcp-handshake.png: derivative work: Snubcube, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Tcp-handshake.svg"><img width="256" alt="Tcp-handshake" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tcp-handshake.svg"></a>
         <br>
-        <a title="Scil100, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Tcp_state_diagram_fixed_new.svg"><img width="512" alt="Tcp state diagram fixed new" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Tcp_state_diagram_fixed_new.svg/512px-Tcp_state_diagram_fixed_new.svg.png"></a>
+        <a title="Scil100, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Tcp_state_diagram_fixed_new.svg"><img width="512" alt="Tcp state diagram fixed new" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tcp_state_diagram_fixed_new.svg"></a>
         <br>
-        <a title="Clemente, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:TCP_CLOSE.svg"><img width="256" alt="TCP CLOSE" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/TCP_CLOSE.svg/256px-TCP_CLOSE.svg.png"></a>
+        <a title="Clemente, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:TCP_CLOSE.svg"><img width="256" alt="TCP CLOSE" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/TCP_CLOSE.svg"></a>
       title: "The Three-Way Handshake"
       questions: 
         - "Review the flowchart to terminate a connection.  How many connections are present in a typical TCP communication, and why?"
@@ -159,11 +159,11 @@ info:
         - "Why did the sender retransmit duplicate packets, and what happens to those packets?"
         - "What might be an improved sequencing protocol?"
     - model: |
-        <a title="Mike de, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Tcp.svg"><img width="512" alt="Tcp" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Tcp.svg/512px-Tcp.svg.png"></a>
+        <a title="Mike de, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Tcp.svg"><img width="512" alt="Tcp" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Tcp.svg"></a>
         <br>
-        <a title="Fleshgrinder, GPLv3 &lt;http://www.gnu.org/licenses/gpl-3.0.html&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:TCP_Slow-Start_and_Congestion_Avoidance.svg"><img width="512" alt="TCP Slow-Start and Congestion Avoidance" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TCP_Slow-Start_and_Congestion_Avoidance.svg/512px-TCP_Slow-Start_and_Congestion_Avoidance.svg.png"></a>
+        <a title="Fleshgrinder, GPLv3 &lt;http://www.gnu.org/licenses/gpl-3.0.html&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:TCP_Slow-Start_and_Congestion_Avoidance.svg"><img width="512" alt="TCP Slow-Start and Congestion Avoidance" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/TCP_Slow-Start_and_Congestion_Avoidance.svg"></a>
         <br>
-        <a title="NetMasterNa, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:CongWin_in_TCP_Tahoe_e_Reno.png"><img width="512" alt="CongWin in TCP Tahoe e Reno" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/CongWin_in_TCP_Tahoe_e_Reno.png/512px-CongWin_in_TCP_Tahoe_e_Reno.png"></a>
+        <a title="NetMasterNa, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:CongWin_in_TCP_Tahoe_e_Reno.png"><img width="512" alt="CongWin in TCP Tahoe e Reno" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/CongWin_in_TCP_Tahoe_e_Reno.png"></a>
       title: "Congestion and Flow Control with TCP"
       questions: 
         - "Which phase of TCP transmission features the fastest growth?"

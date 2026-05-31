@@ -90,7 +90,7 @@ info:
         - "Using this command, generate and use your own SSL certificate: <code>openssl genrsa -out private_key.pem && openssl req -new -key private_key.pem -out csr.pem && openssl x509 -req -days 9999 -in csr.pem -signkey private_key.pem -out certificate_chain.pem</code>.  Add these to a node.js program and invoke an endpoint over https."
         - Did you get a warning from your browser and, if so, why?
     - model: |
-        <a title="I, Giaros / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)" href="https://commons.wikimedia.org/wiki/File:PublicKeyCertificateDiagram_It.svg"><img width="512" alt="PublicKeyCertificateDiagram It" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/PublicKeyCertificateDiagram_It.svg/512px-PublicKeyCertificateDiagram_It.svg.png"></a>
+        <a title="I, Giaros / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)" href="https://commons.wikimedia.org/wiki/File:PublicKeyCertificateDiagram_It.svg"><img width="512" alt="PublicKeyCertificateDiagram It" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/PublicKeyCertificateDiagram_It.svg"></a>
       title: Signing of a Public Key by a Certificate Authority
       questions:
         - Although you can self-sign a certificate, why might it be more authoritative to have a trusted third party validate your identity and sign your key to form a certificate?
@@ -100,24 +100,24 @@ info:
         - Is the public/private key from the SSL certificate actually used to encrypt data between the client and server?  Why or why not?  If not, what is used instead?
       title: SSL Handshake and Encryption
     - model: |
-        <a title="Fleshgrinder, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Full_TLS_1.2_Handshake.svg"><img width="256" alt="Full TLS 1.2 Handshake" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Full_TLS_1.2_Handshake.svg/256px-Full_TLS_1.2_Handshake.svg.png"></a>
+        <a title="Fleshgrinder, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Full_TLS_1.2_Handshake.svg"><img width="256" alt="Full TLS 1.2 Handshake" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Full_TLS_1.2_Handshake.svg"></a>
       title: "Transport Layer Security (TLS)"
       questions: 
         - "How do the two peers agree upon the cipher algorithm to use?"
         - "How do the two peers exchange their keys?  How can they exchange keys securely?"
         - "How might we prevent someone from re-ordering our encrypted packets, or from observing encrypted traffic and &quot;replaying&quot; it by resubmitting the traffic on our behalf?"
     - model: |
-        <a title="Mpk1024, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Ipsec-ah.svg"><img width="512" alt="Ipsec-ah" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Ipsec-ah.svg/512px-Ipsec-ah.svg.png"></a>
+        <a title="Mpk1024, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Ipsec-ah.svg"><img width="512" alt="Ipsec-ah" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ipsec-ah.svg"></a>
         <br>
-        <a title="Mpk1024, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Ipsec-esp-tunnel-and-transport.svg"><img width="512" alt="Ipsec-esp-tunnel-and-transport" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Ipsec-esp-tunnel-and-transport.svg/512px-Ipsec-esp-tunnel-and-transport.svg.png"></a>
+        <a title="Mpk1024, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Ipsec-esp-tunnel-and-transport.svg"><img width="512" alt="Ipsec-esp-tunnel-and-transport" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ipsec-esp-tunnel-and-transport.svg"></a>
         <br>
-        <a title="Ford prefect, CC BY 3.0 &lt;https://creativecommons.org/licenses/by/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Ipsec-modes.svg"><img width="512" alt="Ipsec-modes" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Ipsec-modes.svg/512px-Ipsec-modes.svg.png"></a>
+        <a title="Ford prefect, CC BY 3.0 &lt;https://creativecommons.org/licenses/by/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Ipsec-modes.svg"><img width="512" alt="Ipsec-modes" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Ipsec-modes.svg"></a>
       title: "IPSec for Virtual Private Networks (VPN)"
       questions: 
         - "What is the difference between using IPSec in Transport mode as opposed to Tunnel mode?"
         - "Why might a tunnel be used in conjunction with an encrypted connection to provide Virtual Private Networking?  Note that this is sometimes implemented with the Layer 2 Transport Protocol (L2TP) over IPSec"
     - model: |
-        <a title="Jan Engelhardt, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Netfilter-packet-flow.svg"><img width="512" alt="Netfilter-packet-flow" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Netfilter-packet-flow.svg/512px-Netfilter-packet-flow.svg.png"></a>
+        <a title="Jan Engelhardt, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Netfilter-packet-flow.svg"><img width="512" alt="Netfilter-packet-flow" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Netfilter-packet-flow.svg"></a>
       title: "Firewalls"
       questions: 
         - "What are some sensible rules to block traffic, except that traffic originated by you, or incoming traffic to certain applications?"
