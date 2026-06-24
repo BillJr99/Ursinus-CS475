@@ -83,7 +83,7 @@ info:
         </pre>
         </div>
       title: SSL Certificates
-      embed: <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/RESTfulServiceExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>       
+      embed: <iframe height="400px" width="100%" src="https://www.billmongan.com/Ursinus-CS475/assets/code-viewer.html?zip=https%3A%2F%2Fraw.githubusercontent.com%2FBillJr99%2FUrsinus-CS475%2Fgh-pages%2Ffiles%2Freplit%2FRESTfulServiceExample.zip&title=RESTful%20Service%20Example" scrolling="yes" frameborder="no" allowfullscreen="true" sandbox="allow-scripts allow-same-origin"></iframe>       
       questions:
         - What is an SSL Certificate Chain?
         - What is a Certificate Authority?

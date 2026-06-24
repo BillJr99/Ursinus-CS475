@@ -19,14 +19,14 @@ info:
         - "What port number does your server socket use, and what port should your client use to connect?"
         - "How do we free up the primary server socket port for subsequent connections, so that they can be handled simultaneously?"
       embed: |
-        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/ThreadedSocketClientExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
+        <iframe height="400px" width="100%" src="https://www.billmongan.com/Ursinus-CS475/assets/code-viewer.html?zip=https%3A%2F%2Fraw.githubusercontent.com%2FBillJr99%2FUrsinus-CS475%2Fgh-pages%2Ffiles%2Freplit%2FThreadedSocketClientExample.zip&title=Threaded%20Socket%20Client%20Example" scrolling="yes" frameborder="no" allowfullscreen="true" sandbox="allow-scripts allow-same-origin"></iframe>  
         <br>
-        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/ThreadedSocketServerExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>          
+        <iframe height="400px" width="100%" src="https://www.billmongan.com/Ursinus-CS475/assets/code-viewer.html?zip=https%3A%2F%2Fraw.githubusercontent.com%2FBillJr99%2FUrsinus-CS475%2Fgh-pages%2Ffiles%2Freplit%2FThreadedSocketServerExample.zip&title=Threaded%20Socket%20Server%20Example" scrolling="yes" frameborder="no" allowfullscreen="true" sandbox="allow-scripts allow-same-origin"></iframe>          
     - model: |
         <div>
-        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/MultiThreadedSocketClientExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
+        <iframe height="400px" width="100%" src="https://www.billmongan.com/Ursinus-CS475/assets/code-viewer.html?zip=https%3A%2F%2Fraw.githubusercontent.com%2FBillJr99%2FUrsinus-CS475%2Fgh-pages%2Ffiles%2Freplit%2FMultiThreadedSocketClientExample.zip&title=Multi%20Threaded%20Socket%20Client%20Example" scrolling="yes" frameborder="no" allowfullscreen="true" sandbox="allow-scripts allow-same-origin"></iframe>  
         <br>
-        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/MultiThreadedSocketServerExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>         
+        <iframe height="400px" width="100%" src="https://www.billmongan.com/Ursinus-CS475/assets/code-viewer.html?zip=https%3A%2F%2Fraw.githubusercontent.com%2FBillJr99%2FUrsinus-CS475%2Fgh-pages%2Ffiles%2Freplit%2FMultiThreadedSocketServerExample.zip&title=Multi%20Threaded%20Socket%20Server%20Example" scrolling="yes" frameborder="no" allowfullscreen="true" sandbox="allow-scripts allow-same-origin"></iframe>         
         </div>
       title: "Multithreaded TCP Socket Programming"
       questions: 
@@ -34,9 +34,9 @@ info:
         - "Suppose you have multiple concurrent chat connections, but only one <code>System.in</code> standard input stream.  How might you determine which socket should send each line that the user types in?"
     - model: |
         <div>
-        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/PythonClientSocket?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
+        <iframe height="400px" width="100%" src="https://www.billmongan.com/Ursinus-CS475/assets/code-viewer.html?zip=https%3A%2F%2Fraw.githubusercontent.com%2FBillJr99%2FUrsinus-CS475%2Fgh-pages%2Ffiles%2Freplit%2FPythonClientSocket.zip&title=Python%20Client%20Socket" scrolling="yes" frameborder="no" allowfullscreen="true" sandbox="allow-scripts allow-same-origin"></iframe>  
         <br>
-        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/PythonServerSocket?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>         
+        <iframe height="400px" width="100%" src="https://www.billmongan.com/Ursinus-CS475/assets/code-viewer.html?zip=https%3A%2F%2Fraw.githubusercontent.com%2FBillJr99%2FUrsinus-CS475%2Fgh-pages%2Ffiles%2Freplit%2FPythonServerSocket.zip&title=Python%20Server%20Socket" scrolling="yes" frameborder="no" allowfullscreen="true" sandbox="allow-scripts allow-same-origin"></iframe>         
         </div>
       title: "TCP Socket Programming with Python"
       questions: 

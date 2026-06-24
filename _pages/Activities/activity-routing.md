@@ -114,7 +114,7 @@ info:
         - "Execute Dijkstra's Algorithm on the graph above, using node <strong>a</strong> as the source."
         - "How many cost comparisons are required to execute this algorithm?"
       embed: |
-        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/OSPF?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>          
+        <iframe height="400px" width="100%" src="https://www.billmongan.com/Ursinus-CS475/assets/code-viewer.html?zip=https%3A%2F%2Fraw.githubusercontent.com%2FBillJr99%2FUrsinus-CS475%2Fgh-pages%2Ffiles%2Freplit%2FOSPF.zip&title=OSPF" scrolling="yes" frameborder="no" allowfullscreen="true" sandbox="allow-scripts allow-same-origin"></iframe>          
     - model: |
         <div align="left">
         <code style="display:block; white-space:pre-wrap">
@@ -139,7 +139,7 @@ info:
         - "Why might one use the Bellman-Ford Algorithm instead of Dijkstra's Algorithm for routing, when Dijkstra's Algorithm is more time efficient on a single host?"
         - "How does a node learn what the network topology looks like to facilitate these computations?"
       embed: |
-        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/RIP?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>         
+        <iframe height="400px" width="100%" src="https://www.billmongan.com/Ursinus-CS475/assets/code-viewer.html?zip=https%3A%2F%2Fraw.githubusercontent.com%2FBillJr99%2FUrsinus-CS475%2Fgh-pages%2Ffiles%2Freplit%2FRIP.zip&title=RIP" scrolling="yes" frameborder="no" allowfullscreen="true" sandbox="allow-scripts allow-same-origin"></iframe>         
     - model: |
         <a title="David Condrey, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Small_Network.png"><img width="128" alt="Small Network" src="https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/Small_Network.png"></a>
       title: "The Count-to-Infinity Problem with Route Poisoning or Split Horizon"
