@@ -185,7 +185,7 @@ schedule:
 - week: "0"
   date: "1"
   title: "Course Overview"
-  link: "../Ursinus-CS475-Overview"
+  link: "https://www.billmongan.com/Ursinus-CS475-Overview"
   deliverables:  
   - dtitle: "Programming Assignment: Warmup Handed Out"
     dlink: "./Assignments/Warmup"
@@ -666,7 +666,7 @@ schedule:
 - week: "13"
   date: "2"
   title: "HTTP and SMTP"  
-  link: "/Ursinus-WebMobile-HTTP"
+  link: "https://www.billmongan.com/Ursinus-WebMobile-HTTP"
   readings:
   - rtitle: "Kurose and Ross: Video Streaming and Content Distribution"
     rlink: "https://youtu.be/ak5bbb-xHLI"    
