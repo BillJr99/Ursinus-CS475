@@ -557,7 +557,7 @@ schedule:
   - dtitle: "Programming Assignment: Traceroute Due"
     dlink: "./Assignments/Traceroute"   
     points: 100
-    rubricpath: "_pages/Assignments/asmt-minicrypto.md"
+    rubricpath: "_pages/Assignments/asmt-traceroute.md"
 - week: "11"
   date: "1"
   title: "The Transport Layer: Considerations"
@@ -667,11 +667,6 @@ schedule:
   date: "2"
   title: "HTTP and SMTP"  
   link: "https://www.billmongan.com/Ursinus-WebMobile-HTTP"
-  readings:
-  - rtitle: "Kurose and Ross: Video Streaming and Content Distribution"
-    rlink: "https://youtu.be/ak5bbb-xHLI"    
-  - rtitle: "Service Outages by Ben Eater"
-    rlink: "https://www.youtube.com/watch?v=-wMU8vmfaYo&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=14"       
   deliverables:
   - dtitle: "Final Project: Project and Presentation Handed Out"
     dlink: "Projects/Final"  
@@ -686,6 +681,10 @@ schedule:
     points: 10      
     submission_types: "written"       
   readings:
+  - rtitle: "Kurose and Ross: Video Streaming and Content Distribution"
+    rlink: "https://youtu.be/ak5bbb-xHLI"
+  - rtitle: "Service Outages by Ben Eater"
+    rlink: "https://www.youtube.com/watch?v=-wMU8vmfaYo&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=14"
   - rtitle: "Redbook Ch. 15"
     rlink: false  
   - rtitle: "Kurose and Ross: Email"

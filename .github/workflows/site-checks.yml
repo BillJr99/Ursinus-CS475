@@ -45,8 +45,20 @@ jobs:
         run: |
           python3 - <<'PY'
           import yaml
+
+          class UniqueKeyLoader(yaml.SafeLoader):
+              def construct_mapping(self, node, deep=False):
+                  seen = set()
+                  for key_node, _ in node.value:
+                      key = self.construct_object(key_node, deep=deep)
+                      if key in seen:
+                          line = key_node.start_mark.line + 1
+                          raise ValueError(f"duplicate syllabus key {key!r} at line {line}")
+                      seen.add(key)
+                  return super().construct_mapping(node, deep=deep)
+
           front = open('_pages/syllabus.md', encoding='utf-8').read().split('---')[1]
-          schedule = yaml.safe_load(front)['schedule']
+          schedule = yaml.load(front, Loader=UniqueKeyLoader)['schedule']
           readings = sum(len(s.get('readings', [])) for s in schedule)
           deliverables = sum(len(s.get('deliverables', [])) for s in schedule)
           print(f"schedule parses: {len(schedule)} sessions, "
